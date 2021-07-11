@@ -243,11 +243,12 @@
 @media (max-width: 600px) {
     
     .tt_taikhoan .filterDiv .wrap_save {
-        position: fixed;
-        bottom: 10%;
+        /* position: fixed; */
+        /* bottom: 10%; */
         width: 80%;
         transform: translateX(-50%);
         left: 50%;
+        bottom: 0;
     }
     .question .sec1 .btn {
         font-size: 13px;
@@ -718,10 +719,11 @@
         border-radius: unset;
         height: 20px;
         margin-bottom: 15px;
-        font-size: 10px;
+        font-size: 16px;
         text-indent: 0;
         color: #000;
         padding: 0;
+        font-weight: 300;
     }
     .tt_taikhoan .filterDiv .save {
         width: 100%;
