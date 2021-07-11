@@ -425,6 +425,8 @@
 
 .tt_taikhoan i {
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .tt_taikhoan .filterDiv.method_order .wrapper {
