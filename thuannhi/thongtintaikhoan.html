@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/pthuc.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+    <header>
+	
+	
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="icon-menu-mobile">
+            <ul class="d-flex menu-right">
+                <li>
+                    <a href="">
+                        <img class="blue" src="images/User.png" alt=""> 
+                        <img class="white" style="" src="images/User(2).png" alt="">
+                    </a>
+                    <div   class="table_login">
+                        <ul>
+                            <li class="register"><a href="">Đăng ký</a></li>
+                            <li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="#"><img src="images/LogoFWS1.png" alt=""></a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Trang Chủ </a>
+              </li>
+              
+              
+               <!-- level 3 meunu  -->
+               <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bia
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+                  <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+                  <div class="dropdown-item lv3" href="#">
+                      <a href="">Bia khác</a> 
+                      <div class="sub-lv3 des">
+                        <ul>
+                            <li>Something else here</li>
+                            <li>Something else here</li>
+                            <li>Something else here</li>
+                        </ul>
+                    </div>
+                      <i class="fas fa-chevron-down"></i>
+                  </div>
+                  <div class="sub-lv3 mobi">
+                    <ul>
+                        <li>Something else here</li>
+                        <li>Something else here</li>
+                        <li>Something else here</li>
+                    </ul>
+                </div>
+                <a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+                </div>
+              </li>
+              
+              <!-- end  -->
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Rượu
+                  <i class="fas fa-chevron-down"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+                  <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+                  <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+              </li>
+            </ul>
+            <ul class="d-flex menu-right">
+                <li>
+                    <form class="form-inline my-lg-0">
+                        <input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+                    </form>
+                </li>
+                <li>
+                    <a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+                    </a>
+                    <div data-target="#modalLogin" data-toggle="modal" class="table_login">
+                        <ul>
+                            <li><a href="">Đăng ký</a></li>
+                            <li><a href="">Đăng nhập</a></li>
+                        </ul>
+                    </div>
+                </li>	
+                <li>
+                    
+                    <a data-target="#modalCart" data-toggle="modal" href="" >
+                        <img src="images/ShoppingCartSimple.png" alt="">
+                    </a>
+                 </li>
+                
+                
+            </ul>
+            <div class="login_logout">
+                <div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+                <a href="">Đăng Nhập</a>	
+            </div>
+          </div>
+        </nav>
+    </header>
+<div class="main_content  tt_taikhoan">
+    <div class="breadcrumb">
+        <a href="">tài khoản </a> <span>/</span> <a href=""> thông tin tài khoản</a> 
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 left">
+               <div class="filter"><h3>Cài đặt tài khoản</h3></div> 
+               <div onclick="filterSelection('info')" class="filter active"><i class="fas fa-user"></i><a href="">Thông tin tài khoản</a>
+               </div>
+               <div onclick="filterSelection('change_pass')" class="filter"><i class="fas fa-lock"></i><a href="">Đổi mật khẩu</a></div>
+                <div onclick="filterSelection('method_order')" class="filter"><i class="fas fa-user"></i><a href="">Phương thức thanh
+                toán</a></div>
+                
+               <div onclick="filterSelection('address')" class="filter"><i class="fas fa-user"></i><a href="">Địa chỉ</a></div>
+               <div onclick="filterSelection('my_order')" class="filter"><i class="fas fa-user"></i><a href="">Đơn hàng của bạn</a></div>
+               <div class="logout"><a href=""><img src="images/logout2.png" alt=""> </a><a href="">Đăng xuất</a></div>
+            </div>
+            <div class="col-md-8 info filterDiv show">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">Cài đặt tài khoản</a>
+                </div>
+                <h3>THÔNG TIN TÀI KHOẢN</h3>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <label>Họ và tên</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Giới tính</label><br>
+                        <select class="form-control">
+                            <option></option>
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Ngày sinh</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Số điện thoại</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Email</label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-md-12 mt-4">
+                        <a href="">Đổi mật khẩu</a>
+                    </div>
+                    <div class="col-md-12 group_checkbox">
+                        <input type="checkbox" id="dk_email" name="dk_email" value="">
+                        <label class="dk_email" for="vehicle1">Đăng ký nhận email</label><br>
+                    </div>
+                    <div class="col-md-12 wrap_save">
+                        <a class="save" href="">Lưu thay đổi</a>
+                    </div>
+                    
+                        
+                   
+                </div>
+            </div>
+            <div class="col-md-8 change_pass filterDiv">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐỔI MẬT KHẨU</a>
+                </div>
+                <h3>ĐỔI MẬT KHẨU</h3>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <label for="">Mật khẩu cũ <span>*</span></label><br>
+                        <input type="password">
+                        <label for="">Mật khẩu mới <span>*</span></label><br>
+                        <input type="password">
+                        <label for="">Xác nhận mật khẩu mới <span>*</span></label><br>
+                        <input type="password">
+                        <div class="col-md-12 wrap_save">
+                            <a class="save" href="">Lưu thay đổi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 method_order filterDiv">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">PHƯƠNG THỨC THANH TOÁN</a>
+                </div>
+                <h3>PHƯƠNG THỨC THANH TOÁN</h3>
+                <div class="wrapper d-flex justify-content-between">
+                    <div class="wrap_icon d-flex align-items-center">
+                        <img  src="images/Group176.png" alt="">
+                        <span>Tiền mặt</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="wrapper d-flex justify-content-between">
+                    <div class="wrap_icon d-flex align-items-center">
+                        <img  src="images/Group176.png" alt="">
+                        <span>Thẻ ngân hàng</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="wrapper d-flex justify-content-between">
+                    <div class="wrap_icon d-flex align-items-center">
+                        <img  src="images/Group176.png" alt="">
+                        <span>VISA/ MASTER CARD</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="wrapper d-flex justify-content-between">
+                    <div class="wrap_icon d-flex align-items-center">
+                        <img  src="images/Group176.png" alt="">
+                        <span>MOMO</span>
+                    </div>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="col-md-12 wrap_save">
+                    <a class="save" href="">Lưu thay đổi</a>
+                </div>
+            </div>
+            <div class="col-md-8 address filterDiv">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐỊA CHỈ</a>
+                </div>
+                <h3>ĐỊA CHỈ</h3>
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <label>Tên địa chỉ giao hàng <span>*</span></label><br>
+                        <input type="text">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Phường/ Xã <span>*</span></label><br>
+                        <select class="form-control">
+                            <option></option>
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Thành phố <span>*</span></label><br>
+                        <select class="form-control">
+                            <option></option>
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Quận/ Huyện <span>*</span></label><br>
+                        <select class="form-control">
+                            <option></option>
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Ghi chú </label><br>
+                        <textarea placeholder="Ghi chú" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    
+                    <div class="col-md-12 wrap_save">
+                        <a class="save" href="">Lưu thay đổi</a>
+                    </div>
+            </div>
+             </div>
+            <div class="col-md-8 my_order filterDiv">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐƠN HÀNG CỦA BẠN</a>
+                </div>
+                <h3>ĐƠN HÀNG CỦA BẠN</h3>
+                <div class="row wrap_border">
+                    <div class="col-md-6 group">
+                        <div class="d-flex justify-content-between mb-5">
+                            <span class="time">17/03/2021 - GH001</span>
+                            <a href="">Hỗ trợ</a>
+                        </div>
+                        <div class="group_content_product d-flex justify-content-between mb-4">
+                            <div class="wrapper d-flex align-items-center">
+                                <div class="group_title_product">
+                                    <p class="name">ABBAYE AMBER 330ML</p>
+                                    <p class="gia">90.000VNĐ / chai</p>
+                                </div>
+                            </div>
+                            
+                            <span class="sl">1x</span>
+                            <div class="total">
+                                <p>90000</p>
+                            </div>
+                        </div>
+                        <a class="pending" href="">Đang giao</a>
+                    </div>
+                    <div class="col-md-3 col-5 group d-flex align-items-center">
+                        <div class="wrap_content">
+                            <h4>Thanh toán</h4>
+                        <p>Đơn hàng: 90,000 VNĐ</p>
+                        <p>Phí ship: 15,000 VNĐ</p>
+                        <p>TỔNG: 105,000 VNĐ </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-7 group d-flex align-items-center last">
+                        <div class="wrap_content">
+                            <h4>Phương thức thanh toán</h4>
+                            <p>Tiền mặt</p>
+                            <h4>Địa chỉ giao hàng</h4>
+                            <p>Đức Huy <br>
+                                123 Hoàng Diệu, Đà Nẵng</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="row wrap_border">
+                    <div class="col-md-6 group">
+                        <div class="d-flex justify-content-between mb-5">
+                            <span class="time">17/03/2021 - GH001</span>
+                            <a href="">Hỗ trợ</a>
+                        </div>
+                        <div class="group_content_product d-flex justify-content-between mb-4">
+                          
+                            <div class="wrapper d-flex align-items-center">
+                                <div class="group_title_product">
+                                    <p class="name">ABBAYE AMBER 330ML</p>
+                                    <p class="gia">90.000VNĐ / chai</p>
+                                </div>
+                            </div>
+                            
+                            <span class="sl">1x</span>
+                            <div class="total">
+                                <p>90000</p>
+                            </div>
+                        </div>
+                        <a class="finish" href="">Hoàn thành</a>
+                    </div>
+                    <div class="col-md-3 col-5 group d-flex align-items-center">
+                        <div class="wrap_content">
+                            <h4>Thanh toán</h4>
+                        <p>Đơn hàng: 90,000 VNĐ</p>
+                        <p>Phí ship: 15,000 VNĐ</p>
+                        <p>TỔNG: 105,000 VNĐ </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-7 group d-flex align-items-center last">
+                        <div class="wrap_content">
+                            <h4>Phương thức thanh toán</h4>
+                            <p>Tiền mặt</p>
+                            <h4>Địa chỉ giao hàng</h4>
+                            <p>Đức Huy <br>
+                                123 Hoàng Diệu, Đà Nẵng</p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // filterSelection('info')
+    var fiterDiv = document.querySelectorAll(".col-md-8.filterDiv");
+    var btn_back = document.querySelectorAll('.back_btn_mobile i') ;
+    var btns = document.querySelectorAll(".filter");
+
+    for (let index = 0; index < btn_back.length; index++) {
+        btn_back[index].onclick = function() {
+            for (i = 0; i < fiterDiv.length; i++) {
+            w3RemoveClass(fiterDiv[i], "show show_mobile");
+        }
+        }
+        
+    }
+    // btn_back.onclick = function() {
+    //     for (i = 0; i < fiterDiv.length; i++) {
+    //         w3RemoveClass(fiterDiv[i], "show show_mobile");
+    //     }
+        
+    // }
+    function filterSelection(c) {
+        var x, i;
+        x = document.querySelectorAll(".col-md-8.filterDiv");
+        
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show show_mobile");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show show_mobile");
+        }
+        }
+
+        function w3AddClass(element, name) {
+            console.log('chay');
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+        }
+
+        function w3RemoveClass(element, name) {
+            
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+        }
+        element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        
+        for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            event.preventDefault();
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+        }
+</script>
+</body>

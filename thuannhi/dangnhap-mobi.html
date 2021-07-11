@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/login_mobile.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+	<header>
+	
+	
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <div class="icon-menu-mobile">
+			<ul class="d-flex menu-right">
+				<li>
+					<a href="">
+						<img class="blue" src="images/User.png" alt=""> 
+						<img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div   class="table_login">
+						<ul>
+							<li class="register"><a href="">Đăng ký</a></li>
+							<li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>
+				<li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+			</ul>
+		  </div>
+		  <a class="navbar-brand" href="#"><img src="images/LogoFWS1.png" alt=""></a>
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Trang Chủ </a>
+			  </li>
+			  
+			  
+			   <!-- level 3 meunu  -->
+			   <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Bia
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+				  <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+				  <div class="dropdown-item lv3" href="#">
+					  <a href="">Bia khác</a> 
+					  <div class="sub-lv3 des">
+						<ul>
+							<li>Something else here</li>
+							<li>Something else here</li>
+							<li>Something else here</li>
+						</ul>
+					</div>
+					  <i class="fas fa-chevron-down"></i>
+				  </div>
+				  <div class="sub-lv3 mobi">
+					<ul>
+						<li>Something else here</li>
+						<li>Something else here</li>
+						<li>Something else here</li>
+					</ul>
+				</div>
+				<a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+				</div>
+			  </li>
+			  
+			  <!-- end  -->
+	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Rượu
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+			  </li>
+			  
+			  <li class="nav-item">
+				<a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+			  </li>
+			</ul>
+			<ul class="d-flex menu-right">
+				<li>
+					<form class="form-inline my-lg-0">
+						<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+					</form>
+				</li>
+				<li>
+					<a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div data-target="#modalLogin" data-toggle="modal" class="table_login">
+						<ul>
+							<li><a href="">Đăng ký</a></li>
+							<li><a href="">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>	
+				<li>
+					
+					<a data-target="#modalCart" data-toggle="modal" href="" >
+						<img src="images/ShoppingCartSimple.png" alt="">
+					</a>
+				 </li>
+				
+				
+			</ul>
+			<div class="login_logout">
+				<div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+				<a href="">Đăng Nhập</a>	
+			</div>
+		  </div>
+		</nav>
+		<div class="search-mobile">
+			<form class="form-inline my-lg-0">
+				<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome" />
+			</form>
+		</div>
+	</header>
+
+<div class="main_content login_mobile">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 divShow sec1">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐĂNG NHẬP</a>
+                </div>
+                <h3>FINEWINESTORE xin chào!</h3>
+                <p>Đăng nhập vào FINEWINESTORE bằng số điện thoại</p>
+                <p>SỐ ĐIỆN THOẠI</p>
+                <div class="d-flex align-items-center group_input">
+                    <div class="wrap_icon">
+                        <img src="images/coVN.png" alt="">
+                    </div>
+                    <i class="fas fa-sort-down"></i>
+                    <span>+84</span>
+                    <input placeholder="077 7777" type="number">
+                </div>
+                <div class="d-flex align-items-center mt-4">
+                    <span class="question">Chưa có tài khoản?</span>
+                    <a class="register" href="dangky-mobi.html">Đăng ký ngay</a>
+                </div>
+                
+			</div>
+			<!-- sec2  -->
+			<div class="col-12 divShow sec2 d-none">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐĂNG NHẬP</a>
+                </div>
+                <h3>Nhập mật khẩu!</h3>
+                <p>Nhập mật khẩu để tăng cường bảo mật</p>
+                
+                <div class="wrap_pass d-flex align-items-center group_input">
+                    <input type="password">
+					<span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+				</div>
+                <div class="d-flex align-items-center mt-4">
+                    
+                    <a class="register" href="">Quên mật khẩu?</a>
+                </div>
+                
+			</div>
+			<!-- sec3  -->
+			<div class="col-12 divShow sec3 d-none">
+                <div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">ĐĂNG NHẬP</a>
+                </div>
+                <h3>Nhập mã OTP</h3>
+                <p>Nhập mã OTP được gửi về số điện thoại</p>
+                
+                <div class="d-flex align-items-center group_input">
+                    <input placeholder="" type="number"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+					type = "number"
+					maxlength = "1">
+                    <input placeholder="" type="number"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+					type = "number"
+					maxlength = "1">
+                    <input placeholder="" type="number"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+					type = "number"
+					maxlength = "1">
+                    <input placeholder="" type="number"  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+					type = "number"
+					maxlength = "1">
+                </div>
+                <div class="d-flex align-items-center mt-4 justify-content-center">
+					<span class="question">Chưa nhận được mã</span>
+                    <a class="register" href="">Gửi lại mã OTP</a>
+                </div>
+                
+			</div>
+			<!-- chinh sach doi tra  -->
+			<div class="col-12 modal-content divShow d-none">
+				<div class="back_btn_mobile position-relative">
+                    <i class="fas fa-chevron-left"></i>
+                    <a href="">CHÍNH SÁCH ĐỔI TRẢ</a>
+                </div>
+				<div class="modal-body">
+				 <h3>Điều kiện chính sách đổi trả</h3>
+				 <p>Đơn hàng giao sai sản phẩm hoặc số lượng mà khách hàng đặt.<br>
+					Sản phẩm bị hư hỏng do các lỗi từ nhà sản xuất như tem nhãn, thiết kế bao bì, nội dung thông tin sản phẩm…<br>
+					Sản phẩm bị bóp méo, hư hỏng hoặc hoặc không còn nguyên vẹn do bị tác động trong quá trình vận chuyển.<br>
+					Khách hàng muốn thay đổi nhu cầu sử dụng, muốn đổi sang các dòng sản phẩm tương tự. Điều này sẽ tùy thuộc vào từng sản phẩm, khách hàng cần liên hệ với bộ phận tư vấn của Finewinestore để được hỗ trợ về chính sách đổi trả.<br>
+					Đối với các sản phẩm khuyến mãi, thanh lý thì khách hàng không được sử dụng chính sách đổi trả với lý do muốn thay đổi nhu cầu sử dụng.</p>
+					<h3>Quy định về sản phẩm</h3>
+					<p>
+						Sản phẩm đổi trả cần phải còn nguyên vẹn tem mác, chưa qua sử dụng.<br>
+					Bao bì hộp đựng rượu vẫn còn nguyên, không bị nhàu, rách nát (ngoại trừ trường hợp bao bì bị hư hỏng trong quá trình vận chuyển).<br>
+					Các phụ kiện đi kèm như hộp, túi hoặc các vận dụng khác vẫn còn đầy đủ, không bị mất.<br>
+					</p>
+					<h3>Quy định về phí vận chuyển</h3>
+					<p>Thời gian để áp dụng chính sách đổi trả là trong vòng 7 ngày kể từ ngày nhận được sản phẩm, sau thời gian này cửa hàng có quyền từ chối đổi trả, ngoại trừ một số trường hợp đặc biệt.<br>
+					Đối với các trường hợp đổi trả do lỗi từ Finewinestore thì cửa hàng sẽ chịu hoàn toàn mức phí. Tuy nhiên, mức phí thanh toán sẽ được quy định cụ thể theo quy định của Finewinestore và sẽ được thỏa thuận trước với khách hàng.<br>
+					Đối với các trường hợp đổi trả do lỗi từ phía khách hàng thì khách hàng sẽ phải tự thanh toán mức phí.</p><br>
+				</div>
+				
+			  </div>
+			<!-- end  -->
+            <div class="col-12 btn_tt">
+                <button class="btn">Tiếp tục</button>
+			</div>
+			
+			
+            <!-- <div class="col-12 key-board">
+                <div class="row">
+                    <div class="col-4"><button>1</button></div>
+                    <div class="col-4"><button>2<br>ABC</button></div>
+                    <div class="col-4"><button>3<br>DEF</button></div>
+                    <div class="col-4"><button>4<br>GHI</button></div>
+                    <div class="col-4"><button>5<br>JKL</button></div>
+                    <div class="col-4"><button>6<br>MNO</button></div>
+                    <div class="col-4"><button>7<br>PQRS</button></div>
+                    <div class="col-4"><button>8<br>TUV</button></div>
+                    <div class="col-4"><button>9<br>WXYZ</button></div>
+                    <div class="col-4"></div>
+                    <div class="col-4"><button>0</button></div>
+                    <div class="col-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                        <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2V3zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8 5.829 5.854z"/>
+                      </svg></div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    
+</div>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>

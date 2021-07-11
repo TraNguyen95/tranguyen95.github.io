@@ -1,0 +1,630 @@
+.pt_thanhtoan  .group_select {
+    display: flex;
+}
+* {
+    font-size: 1.4rem;
+}
+
+.pt_thanhtoan .breadcrumb {
+    text-transform: uppercase;
+}
+
+.pt_thanhtoan .breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.pt_thanhtoan .breadcrumb span {
+    margin: 0 10px;
+}
+.pt_thanhtoan .group_info .icon {
+    width: 20px;
+}
+
+.pt_thanhtoan .group_info {
+    display: flex;
+    align-items: center;
+}
+
+.pt_thanhtoan  .group_select {
+    display: flex;
+    margin-bottom: 30px;
+}
+* {
+    font-size: 1.7rem;
+}
+
+.pt_thanhtoan .breadcrumb {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    background: #E5E5E5;
+}
+
+.pt_thanhtoan .breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.pt_thanhtoan .breadcrumb span {
+    margin: 0 10px;
+}
+.pt_thanhtoan .group_info .icon {
+    width: 33px;
+    margin-right: 20px;
+}
+
+.pt_thanhtoan .group_info .group_per label {
+    margin-bottom: 0;
+    color: #094226;
+}
+
+.pt_thanhtoan .group_info .group_per a {
+    text-transform: uppercase;
+    color: #094226;
+    text-decoration: none;
+}
+
+.pt_thanhtoan .group_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 19px;
+}
+
+.pt_thanhtoan .form_group input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #F3F2F2;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pt_thanhtoan .form_group ::-webkit-input-placeholder { /* Edge */
+    color: #dad6d6;
+  }
+  
+  .pt_thanhtoan .form_group :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #dad6d6;
+  }
+  
+  .pt_thanhtoan .form_group ::placeholder {
+    color: #dad6d6;
+  }
+.pt_thanhtoan .group_select select.form-control {
+    margin-right: 40px;
+    height: 49px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #868686;
+}
+
+.pt_thanhtoan .group_select select.form-control:last-child {
+    margin-right: 0;
+}
+
+.pt_thanhtoan h3 {
+    font-size: 2.5rem;
+    color: #094226;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+
+.pt_thanhtoan .form_group label {
+    color: #9c9a9a;
+    font-weight: bold;
+}
+
+.pt_thanhtoan .icon_delete {
+    width: 29px;
+    margin-right: 24px;
+}
+
+.pt_thanhtoan .group_title_product {
+    font-size: 16px;
+}
+.pt_thanhtoan .sl {
+    font-size: 20px;
+    color: #807c7c;
+    font-weight: 300;
+}
+.pt_thanhtoan .total {
+    font-size: 20px;
+}
+.pt_thanhtoan .group_title_product p {
+    margin-bottom: 0;
+}
+
+.pt_thanhtoan .group_title_product p.name {
+    font-weight: bold;
+}
+
+.pt_thanhtoan .group_title_product p.gia {
+    color: #807c7c;
+    font-weight: 300;
+}
+.pt_thanhtoan .group_title_product {
+    font-size: 16px;
+}
+
+.pt_thanhtoan .wrapper_content > .wrapper {
+    border-bottom: 1px solid #0a4226;
+    padding: 20px 15px 20px 15px;
+    background: #fff;
+}
+
+.pt_thanhtoan .gio_hang_mobi .wrapper_content > .wrapper {
+    padding: 20px 15px 2px 15px;
+}
+
+.pt_thanhtoan .right_tt_giaohang  .wrapper_content > .wrapper {
+    border: none;
+    background: #fff;
+}
+
+.pt_thanhtoan .right_tt_giaohang .ma_giam {
+    border-bottom: 20px solid #F5F5F5 !important;
+    padding-top: 0;
+}
+
+.pt_thanhtoan .right_tt_giaohang .wrapper_content .right_tt_giaohang .ma_giam {
+    border-bottom: 20px solid #000;
+}
+
+.pt_thanhtoan .wrapper_content > .wrapper:first-child {
+    padding: 0 15px;
+}
+
+.right_tt_giaohang {
+    border-left: 1px solid #F5F5F5 !important;
+}
+
+.pt_thanhtoan .wrapper_content > .wrapper .title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.pt_thanhtoan .wrapper_content > .wrapper:nth-child(2) {
+    padding: 20px 20px;
+}
+
+.pt_thanhtoan .wrapper_content .wrapper .icon {
+    width: 23px;
+}
+.pt_thanhtoan .ma_giam input[type="text"] {
+    margin: 20px 0;
+    border: 3px solid #094226;
+    border-radius: 8px;
+    height: 41px;
+    width: 70%;
+    text-indent: 5px;
+}
+
+.pt_thanhtoan .ma_giam a {
+    background: #094226;
+    color: #fff;
+    padding: 11px 30px;
+    border-radius: 8px;
+    font-size: 10px;
+}
+.pt_thanhtoan p {
+    margin-bottom: 0;
+}
+.pt_thanhtoan .ma_giam .money {
+    margin: 0 8px;
+    font-weight: bold;
+}
+
+.pt_thanhtoan .btn_xn a {
+    background: #fff;
+    padding: 4rem 6px;
+    color: #094226;
+    border-radius: 19px;
+    /* width: 75%; */
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.pt_thanhtoan .btn_xn {
+    background: #094226;
+    padding: 4rem 0;
+}
+
+.pt_thanhtoan .col-md-4 {
+    padding: 0;
+    border-left: 1px solid #0a4226;
+}
+
+ #finishModal img.logo {
+    width: 115px;
+}
+#finishModal .modal-content {
+    background: #094226;
+    color: #fff;
+    min-width: 621px;
+}
+#finishModal .modal-content .close {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    z-index: 999;
+    top: 20px;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#finishModal .modal-content .close span {
+    font-weight: 100;
+    line-height: 0;
+}
+
+/* thongtintaikhoan css  */
+
+
+.tt_taikhoan .filter {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.tt_taikhoan .filter {
+    padding: 20px 39px;
+    text-transform: uppercase;
+}
+
+.tt_taikhoan .filter:first-child {
+    padding: 20px 70px;
+}
+
+.tt_taikhoan .filter a {
+    font-size: 20px;
+    color: #000;
+    margin-left: 16px;
+}
+
+.tt_taikhoan .filter.active {
+    background: #094226;
+    color: #fff;
+}
+
+.tt_taikhoan .filter.active a {
+    color: #fff;
+}
+
+
+
+.tt_taikhoan .tt_taikhoan .col-md-4 {
+    position: relative;
+}
+
+.tt_taikhoan .logout {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+}
+
+.tt_taikhoan .logout a {
+    color: #0a4226;
+    font-weight: 400;
+}
+
+.tt_taikhoan .logout img {
+    width: 20px;
+    margin-right: 13px;
+}
+.tt_taikhoan .filterDiv{
+    display: none;
+}
+.tt_taikhoan .filterDiv.show {
+    display: block;
+}
+
+.tt_taikhoan .filterDiv input[type="password"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+    border-radius: 8px;
+}
+.tt_taikhoan input[type="text"] {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-indent: 20px;
+}
+.tt_taikhoan .form-control {
+    height: 50px;
+}
+
+.tt_taikhoan input {
+    border: 1px solid #8a8585;
+}
+
+.tt_taikhoan select.form-control {
+    border: 1px solid #8a8585;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tt_taikhoan  label {
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.tt_taikhoan label span {
+    color: red;
+}
+.tt_taikhoan h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tt_taikhoan .filterDiv {
+    border-left: 10px solid #e9ecef;
+    min-height: 650px;
+}
+
+.tt_taikhoan .breadcrumb {
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.tt_taikhoan .breadcrumb span {
+    margin: 0 5px;
+}
+.tt_taikhoan .filterDiv h3 {
+    margin-top: 20px;
+}
+
+.tt_taikhoan a {color: #094226;font-weight: 600;text-transform: uppercase;}
+.tt_taikhoan .dk_email {
+    color: #094226;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.tt_taikhoan .filterDiv .save {
+    background: #094226;
+    color: #fff;
+    padding: 20px 19px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tt_taikhoan .filterDiv.change_pass .save {
+    margin-top: 40px;
+}
+.tt_taikhoan .filterDiv .col-md-12.group_checkbox {
+    margin-top: 32px;
+}
+.tt_taikhoan a:hover {
+    opacity: 0.6;
+}
+
+.tt_taikhoan input#dk_email {
+    margin-right: 7px;
+}
+.tt_taikhoan .filterDiv .wrap_save {
+    margin-top: 50px;
+}
+
+.tt_taikhoan .filterDiv .wrap_save {
+    position: fixed;
+    bottom: 10%;
+    width: 80%;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.tt_taikhoan .filterDiv.method_order h3 {
+    margin-bottom: 50px;
+}
+
+.tt_taikhoan i {
+    cursor: pointer;
+}
+
+.tt_taikhoan .filterDiv.method_order .wrapper {
+    border-bottom: 1px solid #d2cece;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.tt_taikhoan .filterDiv.method_order .wrapper:last-child {
+    border: none;
+}
+
+.tt_taikhoan .filterDiv .wrap_icon img {
+    width: 20px;
+    height: 15px;
+    margin-right: 20px;
+}
+.tt_taikhoan .filterDiv .wrap_icon span {
+    color: #0a4226;
+    font-weight: 600;
+}
+.tt_taikhoan .filterDiv.address select.form-control {
+    margin-bottom: 20px;
+}
+
+.tt_taikhoan .filterDiv.address textarea {
+    width: 100%;
+    height: 50px;
+}
+
+.tt_taikhoan .filterDiv.my_order span.time {
+    font-size: 12px;
+}
+
+.tt_taikhoan .filterDiv.my_order  .group a {
+    font-size: 15px;
+    border: 1px solid #0a4226;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.tt_taikhoan .filterDiv.my_order  p.name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.tt_taikhoan .filterDiv.my_order p {
+    color: #868686;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tt_taikhoan .filterDiv.my_order .total p {
+    color: #000;
+    font-weight: 300;
+}
+
+.tt_taikhoan .filterDiv.my_order p.gia {
+    font-weight: 300;
+}
+
+.tt_taikhoan .filterDiv.my_order span.sl {
+    color: #868686;
+}
+
+.tt_taikhoan .filterDiv.my_order .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tt_taikhoan .filterDiv.my_order  h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tt_taikhoan .filterDiv.my_order .my_order h3 {
+    margin-bottom: 40px;
+}
+
+.tt_taikhoan .filterDiv.my_order .group {
+    padding: 20px 15px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.tt_taikhoan .filterDiv.my_order .group.last p {
+    font-weight: 300;
+}
+.tt_taikhoan .filterDiv.my_order .group:not(:last-child) {
+    /* border-right: 1px solid; */
+}   
+
+.tt_taikhoan .filterDiv.my_order .wrap_border {
+    margin-bottom: 25px;
+}
+.tt_taikhoan .filterDiv.my_order a.finish {
+    background: #0a4226;
+    color: #fff;
+}
+
+div#finishModal .modal-content {
+    padding: 20px;
+    border-radius: 19px;
+}
+
+div#finishModal .modal-content .finish_order {
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+
+.pt_thanhtoan .wrapper.head {
+    padding: 25px 15px !important;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    border-bottom: 18px solid #F5F5F5 !important;
+    font-weight: 100;
+}
+
+.pt_thanhtoan .wrapper.head span {
+    font-size: 17px;
+    color: #868686;
+    font-weight: 400;
+}
+
+.pt_thanhtoan .wrapper.head span .bold {
+    color: #000;
+}
+.col-md-4.right_tt_giaohang {
+    border: none;
+}
+
+.right_tt_giaohang a.btn_left,a.btn_right {
+    border: 1px solid #0a4226;
+    padding: 10px 12%;
+    color: #0a4226;
+    border-radius: 7px;
+    /* margin: 20px 0; */
+}
+
+.right_tt_giaohang a.btn_right {
+    background: #0a4226;
+    color: #fff;
+}
+
+.right_tt_giaohang span.sanpham {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 12px;
+    display: block;
+}
+
+.right_tt_giaohang .group_content_product {
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: auto;
+}
+
+.gio_hang_mobi .wrapper.ma_giam {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+}
+
+.pt_thanhtoan .gio_hang_mobi .ma_giam a {
+    padding: 9px 22px;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.gio_hang_mobi .wrapper.head span,.gio_hang_mobi span.order {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+.gio_hang_mobi  span.order {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 12px;
+}
+.gio_hang_mobi .phi_order {
+    border-bottom: 10px solid #e5e5e5;
+    margin: 0 -15px;
+    padding: 0 15px 10px;
+}
+
+.gio_hang_mobi  .moneyDiv {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+}
+

@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="biaduc.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+	<header>
+	
+	
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <div class="icon-menu-mobile">
+			<ul class="d-flex menu-right">
+				<li>
+					<a href="">
+						<img class="blue" src="images/User.png" alt=""> 
+						<img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div   class="table_login">
+						<ul>
+							<li class="register"><a href="">Đăng ký</a></li>
+							<li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>
+				<li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+			</ul>
+		  </div>
+		  <a class="navbar-brand" href="#"><img src="images/LogoFWS1.png" alt=""></a>
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Trang Chủ </a>
+			  </li>
+			  
+			  
+			   <!-- level 3 meunu  -->
+			   <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Bia
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+				  <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+				  <div class="dropdown-item lv3" href="#">
+					  <a href="">Bia khác</a> 
+					  <div class="sub-lv3 des">
+						<ul>
+							<li>Something else here</li>
+							<li>Something else here</li>
+							<li>Something else here</li>
+						</ul>
+					</div>
+					  <i class="fas fa-chevron-down"></i>
+				  </div>
+				  <div class="sub-lv3 mobi">
+					<ul>
+						<li>Something else here</li>
+						<li>Something else here</li>
+						<li>Something else here</li>
+					</ul>
+				</div>
+				<a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+				</div>
+			  </li>
+			  
+			  <!-- end  -->
+	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Rượu
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+			  </li>
+			  
+			  <li class="nav-item">
+				<a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+			  </li>
+			</ul>
+			<ul class="d-flex menu-right">
+				<li>
+					<form class="form-inline my-lg-0">
+						<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+					</form>
+				</li>
+				<li>
+					<a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div data-target="#modalLogin" data-toggle="modal" class="table_login">
+						<ul>
+							<li><a href="">Đăng ký</a></li>
+							<li><a href="">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>	
+				<li>
+					
+					<a data-target="#modalCart" data-toggle="modal" href="" >
+						<img src="images/ShoppingCartSimple.png" alt="">
+					</a>
+				 </li>
+				
+				
+			</ul>
+			<div class="login_logout">
+				<div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+				<a href="">Đăng Nhập</a>	
+			</div>
+		  </div>
+		</nav>
+	</header>
+
+<div class="main_content bia_duc_content chi_tiet">
+    <div class="container-fluid banner">
+		<h1>Bia đức</h1>
+      </div>
+      <div class="container-fluid bia_duc_content_child">
+          <div class="row">
+              <div class="col-6 col-md-5 left">
+                  <div class="row align-items-center">
+                      <div class="col-4 col-md-3">
+                          <div class="wrap_img">
+                              <img src="images/premier13.png" alt="">
+                          </div>
+                          <div class="wrap_img">
+                            <img src="images/premier13.png" alt="">
+                        </div>
+                        <div class="wrap_img">
+                            <img src="images/premier13.png" alt="">
+                        </div>
+                      </div>
+                      <div class="col-8 col-md-9">
+                          <div class="wrap_img">
+                                <img src="images/premier13.png" alt="">
+                          </div>
+                     </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-6 right">
+                  <h3>ABBAYE D’AULNE</h3>
+                  <p class="price">49.000 VNĐ/ Lon</p>
+                  <div class="add_product">
+                      <a class="add_pr" href="">-</a>
+                      <span>1</span>
+                      <a class="add_pr" href="">+</a>
+                      <a class="add" href="">Thêm Vào giỏ hàng</a>
+				  </div>
+				  <div class="mobi_none">
+					<div class="mta">
+						<a class="btn active" onclick="filterSelection('mota')" href="">mô tả</a>
+						<a class="btn" onclick="filterSelection('danhgia')" href="">đánh giá</a>
+					</div>
+					<div class="filterDiv content_mta mota">
+						<p>Loại bia: Belgian Abbaye Blonde Ale</p>
+						 <p>Nồng độ: 6% IBU: 20 IBU</p> 
+						 <p>Hương vị: Bia có màu vàng nâu, được tạo nên từ sự hòa quyện giữa hương trái cây tinh tế và hương thơm nhẹ nhàng của hoa bia. Khi thưởng thức bia, hương vị lan tỏa ngay với cái chạm môi đầu tiên, dần dần đem lại mùi vị đậm đà tuyệt hảo với các nốt hương gây nghiện. Một loại bia với rất nhiều sự tinh tế và sang trọng, để lại dư vị vô cùng tuyệt hảo và một kết thúc tinh xảo khi thưởng thức.</p> 
+					  <p>Đồ ăn kèm: Phô mai, thịt đỏ</p> 
+					</div>
+  
+					<div class="filterDiv content_mta danhgia">
+						<div class="wrap_danh_gia">
+						  <div class="group_form d-flex flex-wrap justify-content-between ">
+							  <div class="group_input w-100 position-relative">
+								  <p>Nhận Xét Của Bạn</p>
+								  <textarea class="w-100" type="text" id="fname" name="fname"></textarea>
+								  <a href=""><img  src="images/Image(2).png" alt=""></a>
+							  </div>
+							  <button><img src="images/Vector(7).png" alt=""> Gửi</button>
+						  </div>
+						</div>
+						<h3>Thảo Luận về bia ABBAYE D’AULNE 5% - chai 500ml - thùng 20 chai</h3>
+						<div class="per_comment d-flex">
+						  <div class="wrap_img">
+							  H
+						  </div>
+						  <div class="comment">
+							  <div class="person">
+								  <p class="nick_name">TraNguyen</p>
+								  <p class="content_comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum minus </p>
+								  <p class="time_comment">2 phút trước</p>
+							  </div>
+						  </div>
+						  <div class="group_star">
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+						  </div>
+						</div>
+						<div class="per_comment d-flex">
+						  <div class="wrap_img">
+							  <Tarea></Tarea>
+						  </div>
+						  <div class="comment">
+							  <div class="person">
+								  <p class="nick_name">TraNguyen2</p>
+								  <p class="content_comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum minus </p>
+								  <p class="time_comment">2 phút trước</p>
+							  </div>
+						  </div>
+						  <div class="group_star">
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+							  <i class="fas fa-star"></i>
+						  </div>
+						</div>
+					</div>
+				  </div>
+                 
+			  </div>
+			  <div class="col-12 des_none">
+				<div class="mta">
+					<a class="btn active" onclick="filterSelection('mota')" href="">mô tả</a>
+					<a class="btn" onclick="filterSelection('danhgia')" href="">đánh giá</a>
+				</div>
+				<div class="filterDiv content_mta mota">
+					<p>Loại bia: Belgian Abbaye Blonde Ale</p>
+					 <p>Nồng độ: 6% IBU: 20 IBU</p> 
+					 <p>Hương vị: Bia có màu vàng nâu, được tạo nên từ sự hòa quyện giữa hương trái cây tinh tế và hương thơm nhẹ nhàng của hoa bia. Khi thưởng thức bia, hương vị lan tỏa ngay với cái chạm môi đầu tiên, dần dần đem lại mùi vị đậm đà tuyệt hảo với các nốt hương gây nghiện. Một loại bia với rất nhiều sự tinh tế và sang trọng, để lại dư vị vô cùng tuyệt hảo và một kết thúc tinh xảo khi thưởng thức.</p> 
+				  <p>Đồ ăn kèm: Phô mai, thịt đỏ</p> 
+				</div>
+
+				<div class="filterDiv content_mta danhgia">
+					<div class="wrap_danh_gia">
+					  <div class="group_form d-flex flex-wrap justify-content-between ">
+						  <div class="group_input w-100 position-relative">
+							  <p>Nhận Xét Của Bạn</p>
+							  <textarea class="w-100" type="text" id="fname" name="fname"></textarea>
+							  <a href=""><img  src="images/Image(2).png" alt=""></a>
+						  </div>
+						  <button><img src="images/Vector(7).png" alt=""> Gửi</button>
+					  </div>
+					</div>
+					<h3>Thảo Luận về bia ABBAYE D’AULNE 5% - chai 500ml - thùng 20 chai</h3>
+					<div class="per_comment d-flex">
+					  <div class="wrap_img">
+						  H
+					  </div>
+					  <div class="comment">
+						  <div class="person">
+							  <p class="nick_name">TraNguyen</p>
+							  <p class="content_comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum minus </p>
+							  <p class="time_comment">2 phút trước</p>
+						  </div>
+					  </div>
+					  <div class="group_star">
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+					  </div>
+					</div>
+					<div class="per_comment d-flex">
+					  <div class="wrap_img">
+						  <Tarea></Tarea>
+					  </div>
+					  <div class="comment">
+						  <div class="person">
+							  <p class="nick_name">TraNguyen2</p>
+							  <p class="content_comment">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum minus </p>
+							  <p class="time_comment">2 phút trước</p>
+						  </div>
+					  </div>
+					  <div class="group_star">
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+						  <i class="fas fa-star"></i>
+					  </div>
+					</div>
+				</div>
+			  </div>
+          </div>
+      </div>
+
+      <div class="container-fluid khuyen_mai_section ruou_vang">
+		<h2 class="text-center">Sản Phẩm Tương Tự</h2>
+		<div class="row slick_khuyenmai">
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+			<div class="col">
+				<div class="content">
+					<div class="wrap">
+					  <img src="images/bia.png" alt="">
+					</div>
+					<p class="cate">Bia</p>
+					<p class="title">ABBAYE D’AULNE</p>
+					<p class="gia_moi">49.000 VNĐ/ Lon</p>
+					<a class="btn" href="">Thêm vào giỏ hàng</a>
+				</div>
+			</div>
+	  </div>
+	  <div class="wrap_btn text-center"><a class="read_more" href="">Xem Thêm</a></div>
+	</div>
+</div>
+
+<footer>
+	<div class="container-fluid dia_diem">
+		<h3 class="text-center">địa điểm mua hàng</h3>
+		<div class="row">
+			<div class="col-6">
+				<h4>chi nhánh đà nẵng</h4>
+				<div class="group_dia_diem">
+					<p class="title">Anchor Beer Club</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Boutique & Restaurant</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Bistro &
+						Boutique</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+			</div>
+			<div class="col-6 right">
+				<h4>chi nhánh hà nội</h4>
+				<div class="group_dia_diem_r">
+					<p class="title">Anchor Beer Club</p>
+					<p>290 Lê
+						Trọng Tấn, Thanh Xuân, TP. Hà Nội 
+					</p>
+					<p>0905 198 156</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>CHI NHÁNH TP. HỒ CHÍ
+						MINH</h4>
+					<p>60 Hoa Đào,
+						P2, Phú Nhuận, TP. Hồ Chí Minh 
+					</p>
+					<p>0909 084 949</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>chi nhánh TP Quảng  Ngãi</h4>
+					<p>
+						291 Phan Đình Phùng, TP. Quảng Ngãi 
+					</p>
+					<p>0968 870 007</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid follow">
+		<div class="row">
+			<div class="col-6">
+				<p>Theo dõi chúng tôi tại</p>
+				<div class="d-flex"> 
+					<a href=""><i class="fa fa-facebook-f"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+				</div>
+				<p>Mua sắm dễ dàng hơn với ứng dụng FiboCart</p>
+				<div class="d-flex mb-3">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>
+				</div>
+				<div class="d-flex">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>		
+				</div>
+				<!-- <a href=""><img src="images/theodoi.png" alt=""></a> -->
+			</div>
+			<div class="col-6 right">
+				<h3>CÔNG TY TNHH MTV THUẬN NHĨ</h3>
+				<p class="content">
+					Hiện thân của sự cống hiến không ngừng để đạt tới sự hoàn hảo
+				</p>
+				<p><b>Mã số thuế :</b> 0401232339</p>
+				<p><b>Địa chỉ ĐKKD:</b> 77 Đặng Vũ Hỷ, Phường Phước Mỹ, Quận Sơn Trà, TP Đà Nẵng, Việt Nam</p>
+				<p><b>Điện Thoại:</b> 0236 394 0190</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<p class="title">THƯỞNG THỨC CÓ TRÁCH NHIỆM</p>
+		<p>Các sản phẩm bia rượu không dành cho người dưới 18 tuổi và phụ nữ đang mang thai</p>
+		<p>Bản quyền 2020 THUẬN NHĨ</p>
+	</div>
+</footer>
+
+<script>
+filterSelection('mota')
+function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+        }
+
+        function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+        }
+        }
+
+        function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+        }
+        element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current button (highlight it)
+        var btns = document.querySelectorAll(".chi_tiet .mta .btn");
+        for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function(){
+            event.preventDefault();
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+        }
+        
+
+    $(document).ready(function() {
+        $('.slick_khuyenmai').slick({
+        autoplay: false,
+        arrows: true,
+        speed: 1000,
+        dots: false,
+        infinite: true,
+        slidesToShow: 5, 
+        slidesToScroll: 1,
+        cssEase: 'linear',
+        pauseOnFocus: false,
+        pauseOnHover: false,
+        responsive: [
+            
+            {
+                breakpoint: 800,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                
+                }
+            },
+            ]
+      });
+        
+        
+    });
+    
+</script>
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,940 @@
+@media (max-width: 992px) {
+    .tt_taikhoan .filter:first-child {
+        padding: 20px 33px;
+    }
+    .tt_taikhoan .filter a {
+        font-size: 13px;
+    }
+    .container-fluid.follow .right p {
+        font-size: 14px;
+    } 
+    .hoi_dap h3 {
+        font-size: 26px;;
+    }
+    .hoi_dap a.read_more {
+        font-size: 25px;
+    }
+    .hoi_dap .col-md-4.right p {
+        font-size: 21px;
+    }
+    .dia_diem p {
+        font-size: 14px;
+    }
+    .container-fluid.follow {
+        padding: 0 15px 10px;
+    }
+    .wallonie_section img {
+        height: 300px;
+    }
+    .dia_diem h4 {
+        font-size: 21px;
+    }
+    .container-fluid.follow img.logo {
+         width: 158px;
+    }
+    .container-fluid.dia_diem {
+        padding: 0 15px;
+    }
+    .container-fluid.follow img.ma_vach {
+        width: 48px;
+    }
+    .container-fluid.follow .right h3 {
+        /* margin-top: 31%; */
+        font-size: 19px;
+    }
+    .chi_tiet .content_mta i {
+        font-size: 8px;
+    }
+    header nav.navbar.navbar-expand-lg.navbar-light {
+        height: 65px;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        flex-direction: row-reverse;
+        padding: 0px 15px;
+    }
+
+    header a.navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50px;
+    }
+
+    header .search-mobile form.form-inline.my-2.my-lg-0 {
+        width: 100%;
+    }
+    
+    header .search-mobile input[type="text"] {
+        width: 100%;
+        padding: 4px 14px;
+        border: 0.5px solid rgba(0,0,0,.1);
+        border-radius: 5px;
+        height: 30px;
+        font-size: 15px;
+    }
+    
+    header .search-mobile {
+        padding: 0px 14px 14px;
+        background: #fff;
+    }
+
+    header .search-mobile input::placeholder {
+        color: #BABABA;
+        font-weight: 100;
+    }
+    .nav-open header .menu-right {
+        display: none !important;
+    }
+    header .navbar-light .navbar-toggler-icon {
+        background-image: url('images/CloseSquare.png');
+    }
+    header .navbar-light .navbar-toggler-icon {
+        background-image: url('images/CloseSquare.png');
+        transition: 0.4s;
+        width: 30px;
+        height: 30px;
+    }
+    
+    header div#navbarSupportedContent {
+        width: 340px;
+        position: fixed;
+        left: 0;
+        top: 20px;
+        background: #fff;
+        z-index: 997;
+        height: 100%;
+        padding-top: 38px;
+        /* border-top: 1px solid #d0caca; */
+    }
+    .nav-open button.navbar-toggler {
+        width: 370px;
+        /* left: 38%; */
+        /* top: 24%; */
+        z-index: 999;
+        display: flex;
+        justify-content: flex-end;
+        background: #fff;
+        margin-left: -15px;
+        border-bottom: 1px solid #E6E6E6;
+        border-radius: 0px;
+        opacity: 1;
+    }
+    header li.nav-item .nav-link {
+        padding-left: 10px;
+        position: relative;
+    }
+    header .dropdown-toggle1 i {
+        position: absolute;
+        right: 9px;
+    }
+    header .login_logout {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        align-items: center;
+        display: flex;
+        height: 35px;
+    }
+    header div#navbarSupportedContent.show {
+        transform: translate3d(0px, 0, 0);
+    }
+    
+    header div#navbarSupportedContent {
+        transform: translate3d(-300px, 0, 0);
+        transition: all 0.1s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    }
+    .login_logout {
+        display: flex;
+    }
+    
+    header .login_logout .wrap {
+        width: 20px;
+        margin-right: 8px;
+    }
+    
+    header .login_logout .wrap img {
+        width: 100%;
+    }
+    header .login_logout  a {
+        color: green;
+    }
+    header li.nav-item:hover {
+        background: #094226;
+    }
+    header .login_logout  a {
+    color: green;
+    font-size: 15px;
+    }
+    header li.nav-item:hover a {
+        color: #fff !important;
+    }
+
+    header li.nav-item:hover > a {
+        /* border: 0.5px solid #bdb4b4; */
+        opacity: 1;
+    }
+    .nav-open button.navbar-toggler.show {
+        position: fixed;
+        left: 15px;
+        top: 0px;
+        width: 340px;
+        padding: 12px 10px;
+    }
+    .banner {
+        height: 200px;
+    }
+    .banner .sale .wrap {
+        width: 20%;
+    }
+    
+    .banner .khuyen_mai img {
+        width: 100%;
+    }
+    
+    .banner .khuyen_mai {
+        width: 70%;
+    }
+    .banner .upto p {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    .banner .right .wrap {
+        transform: translateX(0%);
+        margin-left: 14%;
+    }
+    .banner .right .wrap p {
+        font-size: 14px;
+    }
+    .FineWineStore .col-md-6.d-flex.justify-content-center.align-items-center.left {
+        padding: 30px 0;
+    }
+    .FineWineStore .col-md-6.right.d-flex.align-items-center {
+        justify-content: center;
+    }
+    .container-fluid.FineWineStore .content {
+        width: 90%;
+    }
+    .container-fluid.FineWineStore .right .wrap {
+        width: 100%;
+    }
+    .container-fluid.cate-ruou {
+        padding: 0 25px;
+        margin-top: 30px;
+    }
+    .container-fluid.cate-ruou .wrap .wrap-image {
+        padding: 0;
+    }
+    .khuyen_mai_section button.slick-arrow {
+        width: 20px;
+        height: 20px;
+    }
+    .khuyen_mai_section .slick-prev:before, .khuyen_mai_section .slick-next:before {
+        font-size: 12px;
+    }
+   
+}
+@media (max-width: 1100px) {
+    header li a.nav-link {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .question .sec1 .btn {
+        font-size: 13px;
+    }
+    .chi_tiet h3 {
+        font-size: 15px;
+    }
+    .chi_tiet .price {
+        font-size: 10px;
+    }
+    .chi_tiet .add_product a.add {
+        font-size: 7px;
+        margin-left: 10px;
+    }
+
+    .chi_tiet .add_product a.add_pr {
+        font-size: 14px;
+        width: 19px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chi_tiet .add_product a.add_pr:first-child {
+        font-size: 25px;
+    }
+    .chi_tiet .add_product span {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+    html.nav-open body:before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 8;
+        background-color: rgba(33, 33, 33, 0.19);
+        width: 100%;
+        height: 100%;
+    }
+    #myModal h3 {
+        font-size: 36px;
+    }
+    #myModal .imgModal {
+        width: 80%;
+    }
+    #myModal p {
+        width: 80%;
+    }
+    #myModal button.btn:first-child {
+        margin-right: 57px;
+    }
+    #myModal button.btn {
+        width: 100px;
+    }
+
+    .wallonie_section img {
+        height: 200px;
+    }
+    .pt_thanhtoan .right_tt_giaohang .wrapper_content > .btn_bottom {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background: #fff;
+    }
+    html,body {
+        height: 100%;
+    }
+    .mobi_none {
+        display: none !important;
+    }
+    .pt_thanhtoan .col-md-4 {
+        border: none;
+    }
+    .pt_thanhtoan .btn_xn {
+        justify-content: space-between !important;
+        padding: 13px 12px;
+        border-top: 1px solid #cecece;
+        background-color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    .pt_thanhtoan .btn_xn a {
+        background: #0a4226;
+        padding: 8px 14px;
+        color: #ffffff;
+        border-radius: 5px;
+        font-size: 13px;
+        width: auto;
+    }
+    .container-fluid.khuyen_mai_section .content .title {
+        font-size: 15px;
+    }
+    .container-fluid.khuyen_mai_section .content .cate {
+        margin-bottom: 0px;
+    }
+    .banner .right .wrap a {
+        font-size: 9px;
+    }
+    #modalCart .modal-content .modal-body .icon_delete {
+        width: 17px;
+    }
+    .pt_thanhtoan .wrapper_content > .wrapper {
+        border: none;
+    }
+    .container-fluid.follow p {
+        font-size: 11px;
+    }
+    .container-fluid.follow img.logo {
+        width: 102px;
+    }
+    .container-fluid.follow img.ma_vach {
+        width: 31px;
+    }
+    header.sticky + .main_content {
+        padding-top: 110px;
+    }
+    .pt_thanhtoan .sl {
+        font-size: 12px;
+    }
+    .pt_thanhtoan .right_tt_giaohang .ma_giam {
+        border-bottom: 140px solid #F5F5F5 !important;
+    }
+    .pt_thanhtoan span.sanpham {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        border-bottom: 1px solid #d4d4d4;
+        padding: 10px 27px;
+        margin: 0;
+        background: #fff;
+    }
+
+.gio_hang_mobi span.sanpham {
+    margin: 0 -19px;
+    margin-bottom: 11px;
+}
+    .pt_thanhtoan .wrapper.head {
+        border-top: 18px solid #F5F5F5 !important;
+    }
+    .tt_giaohang .wrapper_content > .wrapper {
+        padding: 0px 15px 20px 15px;
+    }
+    .right_tt_giaohang .group_content_product {
+        margin-top: 12px;
+    }
+    .pt_thanhtoan .back_btn_mobile {
+        margin: 0 0;
+        box-shadow: none;
+        background: #fff;
+    }
+    .pt_thanhtoan .wrapper.head span {
+        font-size: 14px;
+    }
+    .tt_taikhoan a {
+        text-transform: none;
+    }
+    .pt_thanhtoan .breadcrumb {
+        display: none;
+    }
+    .pt_thanhtoan .col-md-8 {
+        display: none;
+    }
+    .back_btn_mobile a {
+        color: #0a4226;
+        font-weight: 600;
+    }
+
+    .tt_taikhoan .filterDiv.address textarea {
+        border: none;
+        border-bottom: 1px solid #F3F2F2;
+        height: 30px;
+    }
+
+    .tt_taikhoan .filterDiv.address textarea:focus {
+        outline: none;
+    }
+    
+    .tt_taikhoan .filterDiv input, .tt_taikhoan .filterDiv ::placeholder {
+        color: #a59f9f;
+        font-weight: 200;
+    }
+    
+    
+    .tt_taikhoan .filterDiv.my_order p {
+        font-size: 12px;
+    }
+    .tt_taikhoan .filterDiv.my_order h4 {
+        font-size: 15px;
+    }
+    .tt_taikhoan .filterDiv.my_order .group.last p {
+        font-size: 15px;
+    }
+    .pt_thanhtoan .ma_giam a {
+        padding: 9px 16px;
+    }
+    .pt_thanhtoan .group_select select.form-control {
+        font-size: 9px;
+    }
+    .container-fluid.FineWineStore .content a {
+        padding: 3px 34px;
+        margin-bottom: 34px;
+    }
+    .bia_duc_content .filter img {
+        width: 13px;
+    }
+    .main_content h2 {
+        font-size: 25px;
+    }
+    html {
+        font-size: 8px;
+    }
+    .banner .sale .wrap {
+        width: 20%;
+        margin-right: 19px;
+    }
+    .banner .upto p {
+        font-size: 12px;
+        margin-right: 7px;
+    }
+    .banner .right .wrap p {
+        font-size: 13px;
+    }
+    .banner .right .wrap {
+        margin-left: 34px;
+        border: 2px solid #fff;
+    }
+    .hoi_dap .col-md-4.right {
+        padding: 0;
+    }
+    .dia_diem h4 {
+        font-size: 11px;
+        margin-top: 16px;
+    }
+    .dia_diem p {
+        font-size: 7px;
+        margin-bottom: 5px;
+    }
+    .container-fluid.dia_diem {
+        padding: 20px 19px 0;
+    }
+    .dia_diem h3 {
+        font-size: 22px !important;
+    }
+    .container-fluid.follow .right h3 {
+        /* margin-top: 77px; */
+        font-size: 10px;
+    }
+    .container-fluid.follow .right .content {
+        font-size: 9px;
+    }
+    .container-fluid.follow .right p {
+        font-size: 7px;
+    }
+    .footer p {
+        font-size: 13px;
+    }
+    footer {
+        /* margin-top: 107px; */
+    }
+    .hoi_dap .wrap_content.row {
+        padding: 11px 0;
+    }
+    .hoi_dap h3 {
+        font-size: 25px;
+    }
+    .hoi_dap a.read_more {
+        font-size: 20px;
+    }
+    #myModal {
+        background: #094226;
+    }
+
+    .chi_tiet .container-fluid.bia_duc_content_child {
+        position: relative;
+        padding: 20px 15px !important;
+    }
+
+.container-fluid.bia_duc_content_child {
+    position: relative;
+}
+    
+    .container-fluid.bia_duc_content_child .left {
+        position: absolute;
+        background: #0c0c0c6b;
+        /* top: 65px; */
+        height: 100%;
+        z-index: 99;
+        justify-content: center;
+        display: none;
+    }
+
+.chi_tiet .container-fluid.bia_duc_content_child .left {
+    position: relative;
+    background: transparent;
+    top: 0;
+    height: 100%;
+    z-index: 99;
+    justify-content: center;
+    display: block;
+}
+    .container-fluid.bia_duc_content_child .left.show {
+        display: flex;
+    }
+    
+    .bia_duc_content_child .wrap_content {
+        background: #fff;
+        width: 92%;
+        border-radius: 15px;
+        position: absolute;
+        top: 71px;
+        padding: 0 17px;
+    }
+    .bia_duc_content .filter a.des {
+        display: none;
+    }
+    .bia_duc_content .filter a {
+        position: relative;
+        background: #fff;
+        padding: 13px;
+        z-index: 999;
+        font-size: 13px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+    .bia_duc_content .product .mua {
+        min-width: 90px;
+        font-size: 6px;
+    }
+    .bia_duc_content .product img {
+        width: 90px;
+    }
+    .bia_duc_content .product .title {
+        font-size: 9px;
+        color: #0a4226;
+        margin: 4px 0 0px;
+    }
+    .bia_duc_content .product .cat {
+        font-size: 8px;
+    }
+    .bia_duc_content .product .gia_moi {
+        font-size: 10px;
+    }
+    .bia_duc_content .container-fluid.banner h1 {
+        font-size: 40px;
+    }
+    .hoi_dap .col-md-4.right p {
+        font-size: 20px;
+    }
+
+    .hoi_dap .col-md-4.right > .row {
+        padding: 15px;
+    }
+    .hoi_dap .col-md-4.right .wrap_content .wrap {
+        padding: 17px 8px;
+    }
+    header a.navbar-brand {
+        max-width: 50px;
+    }
+    .chi_tiet .danhgia .group_star {
+        margin-right: 15px;
+    }
+    .chi_tiet .content_mta i {
+        font-size: 12px;
+    }
+    .bia_duc_content_child .right .danhgia > h3 {
+        font-size: 10px;
+    }
+    .bia_duc_content_child .right .per_comment .group_star i {
+        font-size: 10px;
+    }
+    .bia_duc_content_child .right .per_comment .comment .nick_name {
+        font-size: 11px;
+    }
+    .bia_duc_content_child .right .per_comment .comment .content_comment {
+        font-size: 8px;
+    }
+    .bia_duc_content_child .right .per_comment .comment .time_comment {
+        font-size: 8px;
+    }
+    .chi_tiet h2.text-center {
+        font-size: 20px;
+    }
+    #modalCart .modal-content .modal-body .group_title_product {
+        font-size: 12px;
+    }
+    #modalCart .modal-content .modal-body .total {
+        font-size: 13px;
+    }
+    #modalCart .row.tien_mat .col-6 p {
+        font-size: 12px;
+    }
+    #modalCart .icon {
+        margin-right: 10px;
+    }
+    #modalCart .tam_tinh.d-flex.justify-content-between {
+        font-size: 14px;
+    }
+    #modalCart .total_order p.money {
+        font-size: 15px;
+    }
+    #modalCart .modal-content .modal-body .sl {
+        margin-left: 13px;
+        font-size: 10px;
+    }
+    #modalCart .modal-content .modal-body .wrap_product {
+        padding: 0 8px;
+    }
+    #modalCart .don_hang {
+        padding: 0 8px;
+    }
+    #modalCart .total_order a {
+        font-size: 12px;
+    }
+    #modalCart .modal-dialog {
+        width: 281px;
+    }
+
+    /* css tt tai khoan mobile  */
+    .tt_taikhoan .col-md-8.filterDiv.show_mobile {
+        position: absolute;
+        z-index: 9999;
+        display: block;
+        top: 0;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        margin-left: 0;
+        border: none;
+    }
+    .tt_taikhoan .container-fluid > .row {
+        position: relative;
+    }
+    .back_btn_mobile {
+        text-align: center;
+        box-shadow: inset 1px -6px 0px rgb(120 120 120 / 20%);
+        margin: 0 -15px;
+        padding: 20px;
+    }
+
+.login_mobile .back_btn_mobile {
+    box-shadow: none;
+}
+
+.login_mobile .modal-content .back_btn_mobile {
+    box-shadow: none;
+    background: #fff;
+}
+    .back_btn_mobile i{
+        position: absolute;
+        left: 15px;
+    }
+    .tt_taikhoan  .filterDiv h3 {
+        display: none;
+    }
+    .tt_taikhoan .filterDiv.show {
+        display: none;
+
+    }
+    .tt_taikhoan .breadcrumb {
+        display: none;
+    }
+    .tt_taikhoan input[type="text"],.tt_taikhoan select.form-control {
+        border: none;
+        border-bottom: 1px solid #F3F2F2;
+        border-radius: unset;
+        height: 20px;
+        margin-bottom: 15px;
+        font-size: 10px;
+        text-indent: 0;
+        color: #000;
+        padding: 0;
+    }
+    .tt_taikhoan .filterDiv .save {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .tt_taikhoan .logout {
+        display: none;
+    }
+    .tt_taikhoan .filter.active {
+        background: #fff;
+        
+    }
+    .tt_taikhoan .filter.active a,.tt_taikhoan .filter.active i {
+        color: #000;
+    }
+    .tt_taikhoan .filter {
+        align-items: center;
+    }
+
+.tt_taikhoan .filter:first-child {
+    text-transform: none;
+    padding: 17px 0 10px;
+}
+
+    .question .sec1 .left h3 {
+        text-align: center;
+    }
+    .question .sec1 .wrap_img {
+        margin-bottom: 20px;
+    }
+    .question .sec1 .right h3 {
+        margin: 25px 0;
+    }
+    .question .sec2 .wrapper {
+        width: 95%;
+    }
+    .question .sec2 .d-none-mobi {
+        display: none;
+    }
+    .question .sec2 span {
+        font-size: 13px;
+    }
+    .question .sec2 img {
+        width: 45px;
+        margin-right: 13px;
+    }
+    .question .sec2 .group:first-child {
+        width: 70%;
+    }
+
+    .question .sec2 .group:nth-child(3) span {
+        margin-bottom: 9px;
+    }
+    .question .banner h1 {
+        font-size: 25px;
+    }
+    .question .container-fuild.sec3 {
+        padding: 1px 21px;
+    }
+    .question .container-fuild.sec3 .col-md-9 {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .question .banner.kt_ruou {
+        margin-bottom: 30px;
+    }
+    .question .sec3 img {
+        width: 100%;
+    }
+    .question .sec3 h3 {
+        font-size: 13px;
+    }
+    .question .sec3 p{
+        font-size: 10px;
+    }
+    .question .sec2 button.btn, .question .sec3 button.btn {
+        padding: 6px 28px;
+        font-size: 15px;
+    }
+    header .dropdown-item.lv3:hover .sub-lv3 {
+        right: -1px;
+         width: 50%;
+         left: auto;
+    }
+    .container-fluid.khuyen_mai_section .content .wrap {
+        padding: 0px 20px;
+    }
+    .question .container-fuild.sec3 .row {
+        margin-bottom: 16px;
+    }
+    .question h3 {
+        margin-bottom: 5px;
+    }
+    .question .sec2 button.btn, .question .sec3 button.btn {
+        margin: 25px auto;
+        margin-top: 25px;
+    }
+    .navbar-nav li.nav-item {
+        border-bottom: 1px solid #E6E6E6;
+    }
+    .main_content {
+        /* transform: translateY(107px); */
+    }
+    #myModal .modal-dialog {
+        max-width: 100%;
+    }
+    .container-fluid.cate-ruou {
+        padding: 0px 39px;
+    }
+    .cate-ruou button.slick-prev {
+        left: -17px;
+    }
+    .cate-ruou button.slick-next {
+        right: -17px;
+    }
+    header div#navbarSupportedContent {
+        width: 250px;
+    }
+    header .dropdown-item.lv3:hover .sub-lv3, header .dropdown-item.lv3:active .sub-lv3 {
+
+    }
+    .nav-open button.navbar-toggler.show {
+        width: 250px;
+    }
+    header .navbar-nav li .dropdown-menu {
+        border-radius: unset;
+        border-top: 1px solid #fff;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .question .sec1 .right {
+        padding-right: 100px;
+    }
+     li.nav-item.dropdown:hover div.dropdown-menu {
+        display: block;
+        margin-top: -0.5px;
+    }
+    .back_btn_mobile {
+        display: none;
+    }
+    .tt_taikhoan .col-md-4.left {
+        padding: 0;
+    }
+    header .dropdown-item.lv3 i {
+        display: none;
+    }
+    header .icon-menu-mobile {
+        display: none;
+    }
+    header .search-mobile {
+        display: none;
+    }
+    header .login_logout {
+        display: none;
+    }
+    .cate-ruou .slick-prev,.cate-ruou .slick-next {
+        display: none !important;
+    }
+    .hoi_dap .col-md-4.right {
+        padding-left: 44px;
+    }
+    header .dropdown-item.lv3:hover .sub-lv3,header .dropdown-item.lv3:active .sub-lv3 {
+    display: block;
+    left: 100%;
+    position: absolute;
+    top: 0;
+    background: #094226;
+    /* padding: 7px 12px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+    
+}
+
+
+@media (min-width: 1350px) {
+    .pt_thanhtoan .btn_xn a {
+        width: 75%;
+    } 
+    #modalCart .row.tien_mat {
+        padding: 0 22px;;
+    }
+    .container-fluid.FineWineStore .right .wrap {
+        width: 50%;
+    }
+    .dia_diem p {
+        font-size: 21px;
+    }
+ }
+
+@media (min-width: 600px) { 
+   
+    
+    .des_none {
+        display: none !important;
+    }
+
+    .pt_thanhtoan .btn_xn .total_mobi {
+        display: none;
+    }
+    
+    .container-fluid.follow .right .content {
+        margin-bottom: 12px;
+    }   
+    .hoi_dap .col-md-4.right .wrap_content:last-child .wrap {
+        height: 90%;
+        transform: translateY(18px);
+    }
+    .bia_duc_content .filter a.mobile {
+        display: none;
+    }
+    .bia_duc_content button.mobi {
+        display: none;
+    }
+    header .navbar-nav li .dropdown-menu .dropdown-item.lv3.show {
+        position: relative;
+        cursor: pointer;
+        color: #fff !important;
+        background: #094226;
+    }
+}

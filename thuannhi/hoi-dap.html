@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/hoi_dap.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+	<header>
+	
+	
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <div class="icon-menu-mobile">
+			<ul class="d-flex menu-right">
+				<li>
+					<a href="">
+						<img class="blue" src="images/User.png" alt=""> 
+						<img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div   class="table_login">
+						<ul>
+							<li class="register"><a href="">Đăng ký</a></li>
+							<li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>
+				<li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+			</ul>
+		  </div>
+		  <a class="navbar-brand" href="#"><img src="images/LogoFWS1.png" alt=""></a>
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Trang Chủ </a>
+			  </li>
+			  
+			  
+			   <!-- level 3 meunu  -->
+			   <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Bia
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+				  <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+				  <div class="dropdown-item lv3" href="#">
+					  <a href="">Bia khác</a> 
+					  <div class="sub-lv3 des">
+						<ul>
+							<li>Something else here</li>
+							<li>Something else here</li>
+							<li>Something else here</li>
+						</ul>
+					</div>
+					  <i class="fas fa-chevron-down"></i>
+				  </div>
+				  <div class="sub-lv3 mobi">
+					<ul>
+						<li>Something else here</li>
+						<li>Something else here</li>
+						<li>Something else here</li>
+					</ul>
+				</div>
+				<a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+				</div>
+			  </li>
+			  
+			  <!-- end  -->
+	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Rượu
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+			  </li>
+			  
+			  <li class="nav-item">
+				<a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+			  </li>
+			</ul>
+			<ul class="d-flex menu-right">
+				<li>
+					<form class="form-inline my-lg-0">
+						<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+					</form>
+				</li>
+				<li>
+					<a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div data-target="#modalLogin" data-toggle="modal" class="table_login">
+						<ul>
+							<li><a href="">Đăng ký</a></li>
+							<li><a href="">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>	
+				<li>
+					
+					<a data-target="#modalCart" data-toggle="modal" href="" >
+						<img src="images/ShoppingCartSimple.png" alt="">
+					</a>
+				 </li>
+				
+				
+			</ul>
+			<div class="login_logout">
+				<div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+				<a href="">Đăng Nhập</a>	
+			</div>
+		  </div>
+		</nav>
+	</header>
+
+<div class="main_content question">
+    <div class="container-fluid banner">
+		<h1>HỎI ĐÁP<br>
+            CÙNG CHUYÊN GIA</h1>
+      </div>
+      <div class="container-fluid sec1">
+          <div class="row">
+              <div class="col-md-8 left">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="wrap_img">
+                            <img src="images/Ellipse10.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <h3>MR. DAVID</h3>
+                        <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng, cao cấp của mình. Đó là một mùi hương dịu nhẹ của những trái nho lên men. Khi uống, vị chan chát của rượu sẽ vươn vấn nơi đầu lưỡi của người thưởng thức. Tùy theo loại nho và quy trình ủ rượu, mỗi chai rượu vang Pháp sẽ mang theo hương vị chát đậm hay chát nhẹ.</p>
+                        <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng, cao cấp của mình. Đó là một mùi hương dịu nhẹ của những trái nho lên men. Khi uống, vị chan chát của rượu sẽ vươn vấn nơi đầu lưỡi của người thưởng thức. Tùy theo loại nho và quy trình ủ rượu, mỗi chai rượu vang Pháp sẽ mang theo hương vị chát đậm hay chát nhẹ.</p>
+                        <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng, cao cấp của mình. Đó là một mùi hương dịu nhẹ của những trái nho lên men. Khi uống, vị chan chát của rượu sẽ vươn vấn nơi đầu lưỡi của người thưởng thức. Tùy theo loại nho và quy trình ủ rượu, mỗi chai rượu vang Pháp sẽ mang theo hương vị chát đậm hay chát nhẹ.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 right">
+                <h3>GỬI CÂU HỎI</h3>
+                <label for="">TÊN NGƯỜI DÙNG *</label> <br>
+				<input type="text"><br>
+				<label for="">EMAIL *</label><br>
+                <input type="text"><br>
+                <label for="">CHỦ ĐỀ *</label><br>
+				<input type="text"><br>
+                <label for="">NỘI DUNG *</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <button class="btn">GỬI CÂU HỎI</button>
+              </div>
+          </div>
+      </div>
+      <div class="container-fluid sec2">
+          <div class="wrapper d-flex justify-content-between">
+              <div class="group">
+                  <span>CHỦ ĐỀ</span><br>
+                  <div class="d-flex align-items-center">
+                    <img src="images/Ellipse10.png" alt="">
+                    <span>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</span>
+                  </div>
+              </div>
+              <div class="group d-none-mobi">
+                  <span>TRẢ LỜI</span><br>
+                  <span>1</span>
+              </div>
+              <div class="group">
+                <span>THẢO LUẬN</span><br>
+                <span>5</span>
+              </div>
+              <div class="group d-none-mobi">
+                <span>ĐỌC</span><br>
+                <span>223</span>
+              </div>
+          </div>
+          <button class="btn">XEM THÊM</button>
+      </div>
+      <div class="container-fluid banner kt_ruou">
+        <h1>KIẾN THỨC VỀ RƯỢU</h1>
+      </div>
+      <div class="container-fuild sec3">
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <button class="btn">XEM THÊM</button>
+      </div>
+      <div class="container-fluid banner kt_ruou">
+        <h1>KIẾN THỨC VỀ BIA</h1>
+      </div>
+      <div class="container-fuild sec3">
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-5">
+                <div class="wrap_img">
+                    <img src="images/ktruou.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-10 col-7">
+                <h3>RƯỢU SÂM BANH ĐÁM CƯỚI NÊN DÙNG LOẠI NÀO?</h3>
+                <p>Các chai rượu ngoại tại Hà Nội đều nổi tiếng bởi hương vị hảo hạng,<br> cao cấp của mình. Đó là một mùi hương dịu... </p>
+            </div>
+        </div>
+        <button class="btn">XEM THÊM</button>
+      </div>
+</div>
+
+
+<footer>
+	<div class="container-fluid dia_diem">
+		<h3 class="text-center">địa điểm mua hàng</h3>
+		<div class="row">
+			<div class="col-6">
+				<h4>chi nhánh đà nẵng</h4>
+				<div class="group_dia_diem">
+					<p class="title">Anchor Beer Club</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Boutique & Restaurant</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Bistro &
+						Boutique</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+			</div>
+			<div class="col-6 right">
+				<h4>chi nhánh hà nội</h4>
+				<div class="group_dia_diem_r">
+					<p class="title">Anchor Beer Club</p>
+					<p>290 Lê
+						Trọng Tấn, Thanh Xuân, TP. Hà Nội 
+					</p>
+					<p>0905 198 156</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>CHI NHÁNH TP. HỒ CHÍ
+						MINH</h4>
+					<p>60 Hoa Đào,
+						P2, Phú Nhuận, TP. Hồ Chí Minh 
+					</p>
+					<p>0909 084 949</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>chi nhánh TP Quảng  Ngãi</h4>
+					<p>
+						291 Phan Đình Phùng, TP. Quảng Ngãi 
+					</p>
+					<p>0968 870 007</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid follow">
+		<div class="row">
+			<div class="col-6">
+				<p>Theo dõi chúng tôi tại</p>
+				<div class="d-flex"> 
+					<a href=""><i class="fa fa-facebook-f"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+				</div>
+				<p>Mua sắm dễ dàng hơn với ứng dụng FiboCart</p>
+				<div class="d-flex mb-3">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>
+				</div>
+				<div class="d-flex">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>		
+				</div>
+				<!-- <a href=""><img src="images/theodoi.png" alt=""></a> -->
+			</div>
+			<div class="col-6 right">
+				<h3>CÔNG TY TNHH MTV THUẬN NHĨ</h3>
+				<p class="content">
+					Hiện thân của sự cống hiến không ngừng để đạt tới sự hoàn hảo
+				</p>
+				<p><b>Mã số thuế :</b> 0401232339</p>
+				<p><b>Địa chỉ ĐKKD:</b> 77 Đặng Vũ Hỷ, Phường Phước Mỹ, Quận Sơn Trà, TP Đà Nẵng, Việt Nam</p>
+				<p><b>Điện Thoại:</b> 0236 394 0190</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<p class="title">THƯỞNG THỨC CÓ TRÁCH NHIỆM</p>
+		<p>Các sản phẩm bia rượu không dành cho người dưới 18 tuổi và phụ nữ đang mang thai</p>
+		<p>Bản quyền 2020 THUẬN NHĨ</p>
+	</div>
+</footer>
+</body>
+</html>

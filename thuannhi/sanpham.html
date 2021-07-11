@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="biaduc.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+	<header>
+	
+	
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <div class="icon-menu-mobile">
+			<ul class="d-flex menu-right">
+				<li>
+					<a href="">
+						<img class="blue" src="images/User.png" alt=""> 
+						<img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div   class="table_login">
+						<ul>
+							<li class="register"><a href="">Đăng ký</a></li>
+							<li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>
+				<li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+			</ul>
+		  </div>
+		  <a class="navbar-brand" href="#"><img src="images/LogoFWS1.png" alt=""></a>
+		  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+	
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item">
+				<a class="nav-link" href="index.html">Trang Chủ </a>
+			  </li>
+			  
+			  
+			   <!-- level 3 meunu  -->
+			   <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Bia
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+				  <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+				  <div class="dropdown-item lv3" href="#">
+					  <a href="">Bia khác</a> 
+					  <div class="sub-lv3 des">
+						<ul>
+							<li>Something else here</li>
+							<li>Something else here</li>
+							<li>Something else here</li>
+						</ul>
+					</div>
+					  <i class="fas fa-chevron-down"></i>
+				  </div>
+				  <div class="sub-lv3 mobi">
+					<ul>
+						<li>Something else here</li>
+						<li>Something else here</li>
+						<li>Something else here</li>
+					</ul>
+				</div>
+				<a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+				</div>
+			  </li>
+			  
+			  <!-- end  -->
+	
+			  <li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  Rượu
+				  <i class="fas fa-chevron-down"></i>
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				  <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+				  <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+				</div>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+			  </li>
+			  
+			  <li class="nav-item">
+				<a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+			  </li>
+			   <li class="nav-item">
+				<a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+			  </li>
+			</ul>
+			<ul class="d-flex menu-right">
+				<li>
+					<form class="form-inline my-lg-0">
+						<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+					</form>
+				</li>
+				<li>
+					<a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+					</a>
+					<div data-target="#modalLogin" data-toggle="modal" class="table_login">
+						<ul>
+							<li><a href="">Đăng ký</a></li>
+							<li><a href="">Đăng nhập</a></li>
+						</ul>
+					</div>
+				</li>	
+				<li>
+					
+					<a data-target="#modalCart" data-toggle="modal" href="" >
+						<img src="images/ShoppingCartSimple.png" alt="">
+					</a>
+				 </li>
+				
+				
+			</ul>
+			<div class="login_logout">
+				<div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+				<a href="">Đăng Nhập</a>	
+			</div>
+		  </div>
+		</nav>
+	</header>
+<div class="main_content bia_duc_content">
+    <div class="container-fluid banner">
+		<h1>Bia đức</h1>
+	  </div>
+	  <div class="container-fluid bia_duc_content_child">
+		  <div class="row">
+			   <div class="col-md-3  left">
+				   <div class="wrap_content">
+					<div class="wrap">
+						<h3>Khoảng giá</h3>
+						<div class="range-wrap">
+							<div class="range-value" id="rangeV"></div>
+							<input id="range" type="range" min="0" max="10000000" value="5000000" step="1">
+							<div class="khoang_gia d-flex justify-content-between">
+								<span>TỪ 0 ĐỒNG</span>
+								<span>ĐẾN 100.000.000 ĐỒNG</span>
+							</div>
+						  </div>
+					</div>	
+					
+					  <div class="nong_do">
+						  <h3>Nồng độ cồn</h3>
+						  <div class="group_check d-flex">
+							<input type="checkbox" id="percent" name="percent" value="0">
+							  <label for="percent">0%</label><br>
+						  </div>
+						  <div class="group_check d-flex">
+							<input type="checkbox" id="percent" name="percent" value="0">
+							  <label for="percent">1% - 10%</label><br>
+						  </div>
+						  <div class="group_check d-flex">
+							<input type="checkbox" id="percent" name="percent" value="0">
+							  <label for="percent">20% - 30%</label><br>
+						  </div>
+						  <div class="group_check d-flex">
+							<input type="checkbox" id="percent" name="percent" value="0">
+							  <label for="percent">>30%</label><br>
+						  </div>
+						  
+					  </div>
+					  <div class="nong_do">
+						<h3>màu sắc bia</h3>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">0%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">1% - 10%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">20% - 30%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">>30%</label><br>
+						</div>
+						
+					</div>
+					<div class="nong_do">
+						<h3>dung tích</h3>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">0%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">1% - 10%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">20% - 30%</label><br>
+						</div>
+						<div class="group_check d-flex">
+						  <input type="checkbox" id="percent" name="percent" value="0">
+							<label for="percent">>30%</label><br>
+						</div>
+						
+					</div>
+					<div class="wrap_btn d-flex justify-content-center">
+						<button class="mobi">Xác nhận</button>
+					</div>
+					
+				   </div>
+				
+		  		</div>
+				<div class="col-md-9 right">
+					<div class="filter">
+						<a class="des" href="">
+							Sắp xếp<img class="" src="images/Filter.png" alt="">
+							
+						</a>
+						<a class="mobile" href="">
+							Bộ Lọc<span><img src="images/Filter.png" alt=""></span>
+						</a>
+						<div class="filterContentDiv">
+							<div><a href="">Mới Nhất</a></div>
+							<div><a href="">Cũ Nhất</a></div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua over" href="">hết hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua" href="">Thêm Vào giỏ hàngg</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+						<div class="col-md-3 col-4">
+							<div class="product">
+								<img src="images/premier3.png" alt="">
+								<p class="cat">Bia</p>
+								<p class="title">ABBAYE D’AULNE</p>
+								<p class="gia_moi">49.000 VNĐ/ Lon</p>
+								<a class="btn mua add" href="">Thêm Vào giỏ hàng</a>
+							</div>
+						</div>
+					</div>
+					<div class="phantrang">
+						<a class="arrow_page" href=""> <i class="fas fa-chevron-left"></i> </a>
+						<span><a href="">7</a></span>
+						<span class="active"><a href="">8</a></span>
+						<span><a href="">9</a></span>
+						<a class="arrow_page" href=""> <i class="fas fa-chevron-right"></i> </a>
+					</div>
+			    </div>
+	       </div>
+</div>
+
+<footer>
+	<div class="container-fluid dia_diem">
+		<h3 class="text-center">địa điểm mua hàng</h3>
+		<div class="row">
+			<div class="col-6">
+				<h4>chi nhánh đà nẵng</h4>
+				<div class="group_dia_diem">
+					<p class="title">Anchor Beer Club</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Boutique & Restaurant</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Bistro &
+						Boutique</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+			</div>
+			<div class="col-6 right">
+				<h4>chi nhánh hà nội</h4>
+				<div class="group_dia_diem_r">
+					<p class="title">Anchor Beer Club</p>
+					<p>290 Lê
+						Trọng Tấn, Thanh Xuân, TP. Hà Nội 
+					</p>
+					<p>0905 198 156</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>CHI NHÁNH TP. HỒ CHÍ
+						MINH</h4>
+					<p>60 Hoa Đào,
+						P2, Phú Nhuận, TP. Hồ Chí Minh 
+					</p>
+					<p>0909 084 949</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>chi nhánh TP Quảng  Ngãi</h4>
+					<p>
+						291 Phan Đình Phùng, TP. Quảng Ngãi 
+					</p>
+					<p>0968 870 007</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid follow">
+		<div class="row">
+			<div class="col-6">
+				<p>Theo dõi chúng tôi tại</p>
+				<div class="d-flex"> 
+					<a href=""><i class="fa fa-facebook-f"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+				</div>
+				<p>Mua sắm dễ dàng hơn với ứng dụng FiboCart</p>
+				<div class="d-flex mb-3">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>
+				</div>
+				<div class="d-flex">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>		
+				</div>
+				<!-- <a href=""><img src="images/theodoi.png" alt=""></a> -->
+			</div>
+			<div class="col-6 right">
+				<h3>CÔNG TY TNHH MTV THUẬN NHĨ</h3>
+				<p class="content">
+					Hiện thân của sự cống hiến không ngừng để đạt tới sự hoàn hảo
+				</p>
+				<p><b>Mã số thuế :</b> 0401232339</p>
+				<p><b>Địa chỉ ĐKKD:</b> 77 Đặng Vũ Hỷ, Phường Phước Mỹ, Quận Sơn Trà, TP Đà Nẵng, Việt Nam</p>
+				<p><b>Điện Thoại:</b> 0236 394 0190</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<p class="title">THƯỞNG THỨC CÓ TRÁCH NHIỆM</p>
+		<p>Các sản phẩm bia rượu không dành cho người dưới 18 tuổi và phụ nữ đang mang thai</p>
+		<p>Bản quyền 2020 THUẬN NHĨ</p>
+	</div>
+</footer>
+
+
+
+<script>
+
+const
+  range = document.getElementById('range'),
+  rangeV = document.getElementById('rangeV'),
+  setValue = ()=>{
+    const
+      newValue = Number( (range.value - range.min) * 100 / (range.max - range.min) ),
+      newPosition = 10 - (newValue * 0.2);
+    rangeV.innerHTML = `<span>${range.value}</span>`;
+    rangeV.style.left = `calc(${newValue}% + (${newPosition}px))`;
+  };
+document.addEventListener("DOMContentLoaded", setValue);
+range.addEventListener('input', setValue);
+
+$(document).ready(function() {
+	$('.bia_duc_content .filter a').click(function() {
+		event.preventDefault();
+		$('.bia_duc_content .bia_duc_content_child .left').toggleClass('show');
+	})
+})
+</script>
+<script src="main.js"></script>
+</body>
+</html>

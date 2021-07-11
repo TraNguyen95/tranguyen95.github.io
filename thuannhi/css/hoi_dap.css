@@ -1,0 +1,124 @@
+.question .banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question .banner h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+.question .sec1 .wrap_img{
+    width: 200px;
+    margin: 0 auto;
+}
+.question h2 {
+    font-size: 3rem;
+}
+.question h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.question p {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.question .sec1 input, .question textarea {
+    width: 100%;
+    border: 2px solid #094226;
+}
+.question .sec1 input {
+    height: 44px;
+    margin-bottom: 20px;
+    border: 2px solid #094226;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+.question .sec1 input:focus {
+    outline: none;
+}
+.question .sec1 label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.question .sec1 .btn {
+    background-color: #094226;
+    color: #fff;
+    border: none;
+    padding: 14px 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: auto;
+    display: block;
+    margin-top: 30px;
+}
+.question .sec1 {
+    padding: 40px 15px;
+}
+
+.question .sec2 img {
+    width: 65px;
+    margin-right: 26px;
+}
+.question .sec2 span {
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.question .sec2  .wrapper {
+    /* height: 100px; */
+    align-items: center;
+    /* width: 80%; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    padding: 33px 25px;
+}
+
+.question .sec2  .group {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.question .sec2 button.btn,.question .sec3 button.btn {
+    background-color: #fff;
+    color: #094226;
+    border: none;
+    padding: 12px 39px;
+    font-size: 17px;
+    border-radius: 8px;
+    font-weight: 500;
+    margin: 38px auto;
+    font-weight: 600;
+    display: block;
+    margin-top: 50px;
+    border: 2px solid #094226;
+}
+
+.question .sec3 h3 {
+    font-size: 3rem;
+}
+.question .sec3 p {
+    font-size: 1.5rem;
+}
+.question .sec3 img {
+    width: 95%;
+}
+
+.container-fuild.sec3 {
+    padding: 30px 44px;
+}
+
+.question .banner.kt_ruou {
+    margin-bottom: 50px;
+}
+
+.question .container-fuild.sec3 .row {
+    margin-bottom: 50px;
+}

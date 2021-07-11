@@ -1,0 +1,469 @@
+
+
+  .container-fluid.banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid.banner h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+}  
+  input[type=range] {
+    -webkit-appearance: none;
+    margin: 20px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: #094226;
+    border-radius: 25px;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #094226;
+  }
+  .range-wrap{
+    position: relative;
+  }
+
+.range-wrap span {
+    font-size: 14px;
+}
+  .range-value{
+    position: absolute;
+    top: -50%;
+  }
+  .range-value span{
+    /* width: 30px; */
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #094226;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 6px;
+  }
+  .range-value span:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #094226;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+  }
+
+ .bia_duc_content .nong_do input {
+    margin-right: 14px;
+    width: 12px;
+}
+.bia_duc_content .nong_do .group_check {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bia_duc_content .nong_do .group_check:last-child {
+    margin-bottom: 0;
+}
+
+.bia_duc_content .nong_do .group_check label {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.bia_duc_content .col-md-3.left {
+    padding: 0;
+}
+
+.bia_duc_content .col-md-3.left {
+    padding: 0;
+    color: #094226;
+}
+
+.bia_duc_content .left .wrap {
+    padding: 38px 10px 10px;
+    border-bottom: 1px solid #d8c9ca;
+}
+
+.bia_duc_content .nong_do {
+    padding: 12px;
+    border-bottom: 1px solid #d8c9c9;
+}
+
+.bia_duc_content .product img {
+    max-width: 110px;
+}
+
+.bia_duc_content .product .cat {
+    font-size: 10px;
+    font-weight: 700;
+    color: #094226;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.bia_duc_content .product .mua {
+    padding: 9px 5px;
+    background: #094226;
+    color: #fff;
+    text-transform: uppercase;
+    min-width: 110px;
+    font-size: 9px;
+    border-radius: 6px;
+    font-weight: bold;
+    /* font-size: 24px; */
+    margin-top: 3px;
+}
+
+.bia_duc_content .product .mua.over {
+    background: #C4C4C4;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+.bia_duc_content .product .gia_moi {
+    font-size: 14px;
+    color: #094226;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.product 
+ .title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 243px;
+    overflow: hidden;
+    max-height: 33px;
+    margin-bottom: 5px;
+}
+
+.bia_duc_content .product {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.bia_duc_content .filter {
+    text-align: right;
+    position: relative;
+    margin-top: -15px;
+}
+
+.bia_duc_content .filter img {
+    width: 18px;
+    margin: 38px 10px;
+}
+
+.bia_duc_content .filter a {
+    font-size: 18px;
+    margin-right: 0px;
+    color: #010101;
+}
+
+
+.bia_duc_content h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+
+
+.bia_duc_content .phantrang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bia_duc_content .phantrang span a {
+    font-size: 20px;
+    margin: 0 5px;
+    color: #000;
+}
+
+.bia_duc_content .phantrang span.active a {
+    color: #094226;
+    font-size: 25px;
+}
+
+
+
+.bia_duc_content .phantrang span.active {
+    transform: translateY(-2px);
+}
+
+a.arrow_page i {
+    font-style: initial;
+    font-size: 20px;
+    color: #094226;
+}
+
+/* css page chitiet san pham */
+.chi_tiet .left .col-md-3 .wrap_img {
+    margin-bottom: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.chi_tiet h3 {
+    font-size: 3.5rem;
+}
+
+.chi_tiet .price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0a4226;
+}
+
+.chi_tiet .add_product {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chi_tiet .add_product a:hover {
+    opacity: 0.6;
+}
+
+.chi_tiet .add_product span {
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.chi_tiet .add_product a {
+    background: #094226;
+    padding: 2px 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 2rem;
+    /* margin-right: 11px; */
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.chi_tiet .add_product a.add {
+    font-size: 1rem;
+    padding: 11px 10px;
+    margin-left: 30px;
+}
+.chi_tiet .mta {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.chi_tiet .mta a {
+    color: #0a4226;
+    text-transform: uppercase;
+    margin-right: 11px;
+    text-decoration: none;
+}
+
+.chi_tiet .mta a.active {
+    border-bottom: 2px solid;
+}
+
+.chi_tiet .mta a {
+    font-size: 20px;
+    padding: 0;
+    font-weight: bold;
+}
+.chi_tiet .content_mta.mota {
+    margin-top: 1.3rem;
+    border-top: 3px solid #0a4226;
+    border-bottom: 3px solid #0a4226;
+    padding: 11px 0;
+    line-height: 1.7;
+}
+.chi_tiet .content_mta {
+    display: none;
+}
+
+.chi_tiet .content_mta.danhgia .wrap_danh_gia {
+    border: 2px solid #0a4226;
+    margin-top: 18px;
+    padding: 15px 15px;
+    margin-bottom: 50px;
+}
+
+.chi_tiet .content_mta.danhgia .wrap_danh_gia .group_form {
+    margin-top: 19px;
+}
+
+.chi_tiet .content_mta.show {
+    display: block;
+}
+
+.chi_tiet .content_mta i {
+    font-style: initial;
+    font-size: 14px;
+    cursor: pointer;
+    color: #c7c7c7;
+}
+
+.chi_tiet .content_mta p {
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.chi_tiet h2.text-center {
+}
+
+.chi_tiet .container-fluid.bia_duc_content_child {
+    padding: 50px 15px;
+}
+
+.chi_tiet .danhgia .group_input input {
+    height: 40px;
+    /* width: 90% !important; */
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.chi_tiet .danhgia .group_input.w-50 {
+    width: 48% !important;
+}
+
+.chi_tiet .danhgia  button img {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.chi_tiet .danhgia  button  {
+    padding: 0px 8px;
+    background: #094226;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.chi_tiet .danhgia button:hover {
+    opacity: 0.7;
+}
+
+.chi_tiet .danhgia .group_star {
+    margin-right: 20px;
+}
+.chi_tiet .danhgia textarea {
+    height: 100px;
+    margin-bottom: 21px;
+    margin-top: 10px;
+}
+
+.chi_tiet .danhgia a img {
+    width: 20px;
+    position: absolute;
+    bottom: 29px;
+    right: 6px;
+}
+
+.per_comment .wrap_img {
+    width: 50px;
+    height: 50px;
+    background: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.per_comment .comment {
+    width: 60%;
+}
+
+.bia_duc_content_child .right .per_comment .comment .nick_name {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.bia_duc_content_child .right .per_comment .comment .time_comment {
+    color: #a7a2a2;
+}
+
+.bia_duc_content_child .right .per_comment .group_star {
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 3px;
+}
+
+.bia_duc_content_child .right .per_comment .group_star i {
+    color: #ffd400;
+}
+.bia_duc_content_child .right .per_comment.d-flex {
+    margin-bottom: 22px;
+    align-items: center;
+}
+.bia_duc_content_child .right .danhgia > h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.bia_duc_content button.mobi {
+    background: #094226;
+    border: none;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 12px 0;
+}
+.right .des {
+    position: relative;
+}
+.filterContentDiv {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    bottom: -23px;
+    background: #0a4226;
+    border-radius: 7px;
+    padding: 5px 19px;
+    text-align: left;
+    display: none;
+    z-index: 9999;
+}
+.filterContentDiv.show {
+    display: block;
+}
+
+.bia_duc_content .filter .filterContentDiv div a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.chi_tiet .khuyen_mai_section .wrap_btn {
+    margin-top: 70px !important;
+}
