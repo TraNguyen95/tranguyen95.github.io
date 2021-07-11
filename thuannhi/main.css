@@ -421,6 +421,7 @@ header {
 .container-fluid.cate-ruou .wrap .wrap-image img {
     /* height: 100%; */
     width: auto;
+    object-fit: contain;
 }
 
 .container-fluid.cate-ruou .col {
