@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+    .container-fluid.khuyen_mai_section .content .wrap {
+        padding: 0px 20px;
+    }
     .tt_taikhoan .filter:first-child {
         padding: 20px 33px;
     }
