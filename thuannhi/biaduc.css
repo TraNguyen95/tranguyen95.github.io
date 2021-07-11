@@ -161,7 +161,7 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
-    max-width: 243px;
+    /* max-width: 243px; */
     overflow: hidden;
     max-height: 33px;
     margin-bottom: 5px;
