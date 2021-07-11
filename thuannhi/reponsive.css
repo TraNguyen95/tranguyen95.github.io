@@ -1,4 +1,13 @@
 @media (max-width: 992px) {
+    .pt_thanhtoan .group_title_product p {
+        font-size: 13px;
+    }
+    .right_tt_giaohang a.btn_left, a.btn_right {
+        padding: 10px 9%;
+    }
+    .pt_thanhtoan .ma_giam a {
+        padding: 13px 14px;
+    }
     .container-fluid.khuyen_mai_section .content .wrap {
         padding: 0px 20px;
     }
@@ -382,7 +391,7 @@
         font-weight: 500;
         display: block;
         border-bottom: 1px solid #d4d4d4;
-        padding: 10px 27px;
+        padding: 10px 15px;
         margin: 0;
         background: #fff;
     }
@@ -866,9 +875,6 @@
         display: block;
         margin-top: -0.5px;
     }
-    .back_btn_mobile {
-        display: none;
-    }
     .tt_taikhoan .col-md-4.left {
         padding: 0;
     }
@@ -921,6 +927,9 @@
  }
 
 @media (min-width: 600px) { 
+    .back_btn_mobile {
+        display: none;
+    }
     .tt_taikhoan .back_btn_mobile {
         display: none;
     }
