@@ -241,6 +241,14 @@
 }
 
 @media (max-width: 600px) {
+    
+    .tt_taikhoan .filterDiv .wrap_save {
+        position: fixed;
+        bottom: 10%;
+        width: 80%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
     .question .sec1 .btn {
         font-size: 13px;
     }
@@ -908,7 +916,9 @@
  }
 
 @media (min-width: 600px) { 
-   
+    .tt_taikhoan .back_btn_mobile {
+        display: none;
+    }
     
     .des_none {
         display: none !important;
