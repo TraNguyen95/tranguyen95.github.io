@@ -240,6 +240,7 @@
     .khuyen_mai_section button.slick-arrow {
         width: 20px;
         height: 20px;
+        background-size: 5px 8px;
     }
     .khuyen_mai_section .slick-prev:before, .khuyen_mai_section .slick-next:before {
         font-size: 12px;
@@ -253,6 +254,9 @@
 }
 
 @media (max-width: 600px) {
+    .khuyen_mai_section button.slick-prev, .khuyen_mai_section button.slick-next{
+        background-size: 6px 10px;
+    }
     
     .tt_taikhoan .filterDiv .wrap_save {
         /* position: fixed; */

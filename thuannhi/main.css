@@ -477,6 +477,20 @@ header {
     max-width: 90%;
 }
 
+.khuyen_mai_section button.slick-prev {
+    background-image: url('images/Vector(1).png');
+    background-size: 14px 17px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.khuyen_mai_section button.slick-next {
+    background-image: url('images/Vector(2).png');
+    background-size: 14px 17px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
 .khuyen_mai_section img {
     max-height: 165px;
     object-fit: contain;
@@ -580,12 +594,12 @@ header {
     left: -10px;
 }
 .khuyen_mai_section .slick-prev:before {
-    content: '\f053';
+    content: '';
     color: #000;
     font-family: "Font Awesome 5 Free";
 }
 .khuyen_mai_section .slick-next:before {
-    content: '\f054';
+    content: '';
     color: #000;
     font-family: "Font Awesome 5 Free";
 }

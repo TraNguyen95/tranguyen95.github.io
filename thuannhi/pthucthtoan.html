@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="reponsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -237,7 +240,7 @@
                     <div class="wrapper ma_giam">
                         <span class="title">MÃ GIẢM GIÁ</span>
                         <div class="d-flex align-items-center justify-content-between" >
-                            <input type="text"><a href="">ÁP DỤNG</a>
+                            <button  data-toggle="modal" data-target="#modalVoucher">Chọn khuyến mãi</button>
                         </div>
                         <div class="d-flex align-items-center justify-content-between mb-5">
                             <span class="title">TẠM TÍNH</span>
@@ -246,7 +249,7 @@
                         <div class="d-flex align-items-center justify-content-between">
                             <span class="title">PHƯƠNG THỨC <br> THANH TOÁN</span>
                             <div class="d-flex">
-                                <div class="wrapper d-flex align-items-center justify-content-center">
+                                <div data-toggle="modal" data-target="#modalMethodOrder" class="modalMethodOrder wrapper d-flex align-items-center justify-content-center">
                                     <i class="fas fa-chevron-down"></i>
                                     <p class="money">Tiền mặt </p>
                                     <div class="icon"><img src="images/Group176.png" alt=""></div>
@@ -262,77 +265,7 @@
                 </div>
 			      </div>
 
-            <!-- <div class="des_none col-md-4 right_tt_giaohang position-relative">
-              <div class="back_btn_mobile ">
-                  <i class="fas fa-chevron-left"></i>
-                  <a href="">HOÀN TẤT ĐƠN HÀNG</a>
-              </div>
-              <div class="wrapper_content">
-                  <div class="wrapper head">
-                      <span>Mã đơn hàng: <span class="bold">GH0001</span></span> <span>08h00 - 12/06/2021</span>
-                  </div>
-                  <span class="sanpham">Sản phẩm</span>
-                  <div class="wrap_product wrapper">
-                      
-                      <div class="group_content_product d-flex justify-content-between align-items-center">
-                          <div class="wrapper d-flex align-items-center">
-                              <div class="group_title_product">
-                                  <p class="name">ABBAYE AMBER 330ML</p>
-                                  <p class="gia">90.000VNĐ / chai</p>
-                              </div>
-                          </div>
-                          
-                          <span class="sl">1x</span>
-                          <div class="total">
-                              <p>90000</p>
-                          </div>
-                      </div>
-                      <div class="group_content_product d-flex justify-content-between align-items-center">
-                          <div class="wrapper d-flex align-items-center">
-                              <div class="group_title_product">
-                                  <p class="name">ABBAYE AMBER 330ML</p>
-                                  <p class="gia">90.000VNĐ / chai</p>
-                              </div>
-                          </div>
-                          
-                          <span class="sl">1x</span>
-                          <div class="total">
-                              <p>90000</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="wrapper ma_giam">
-                      <div class="d-flex align-items-center justify-content-between mb-5">
-                          <span class="title">Tạm tính</span>
-                          <span>105,000 VND</span>
-                      </div>
-                      <div class="wrapper d-flex justify-content-between mb-5">
-                          <span class="title">Phí vận chuyển</span>
-                          <span>15,000 VND</span>
-                      </div>
-                      <div class="wrapper d-flex justify-content-between mb-5">
-                          <span class="title">Tổng(1 món)</span>
-                          <span><b>120,000 VND</b></span>
-                      </div>
-                      <div class="d-flex align-items-center justify-content-between">
-                          <span class="title">Phương thức  thanh toán</span>
-                          <div class="d-flex">
-                              <div class="wrapper d-flex align-items-center justify-content-center">
-                                  <i class="fas fa-chevron-down"></i>
-                                  <p class="money">Tiền mặt </p>
-                                  <div class="icon"><img src="images/Group176.png" alt=""></div>
-                              </div>
-                          </div>
-                      </div>
-                      
-                  </div>
-                  <div class="btn_bottom wrapper d-flex justify-content-between">
-                      <a class="btn_left" href="">Gọi hỗ trợ</a>
-                      <a class="btn_right" href="">ĐẶT LẠI</a>
-                  </div>
-                
-              </div>
-            </div> -->
+            
             <div class="des_none gio_hang_mobi col-md-4  position-relative">
               <div class="back_btn_mobile ">
                   <i class="fas fa-chevron-left"></i>
@@ -376,14 +309,14 @@
                       <div class="moneyDiv d-flex align-items-center justify-content-between">
                           
                           <div class="d-flex">
-                              <div class="wrapper d-flex align-items-center justify-content-center">
+                              <div data-toggle="modal" data-target="#modalMethodOrder" class="wrapper d-flex align-items-center justify-content-center">
                                   <i class="fas fa-chevron-down"></i>
                                   <p class="money">Tiền mặt </p>
                                   <div class="icon"><img src="images/Group176.png" alt=""></div>
                               </div>
             </div>
             <span>|</span>
-            <span class="title">Chọn khuyến mãi</span>
+            <span data-toggle="modal" data-target="#modalVoucher" class="title">Chọn khuyến mãi</span>
                       </div>
           <div class="wrapper d-flex align-items-center justify-content-between">
             <span class="total_mobi">Tổng cộng <br><b>105,000 VND</b></span>
@@ -416,7 +349,282 @@
 	  </div>
 	</div>
 </div>
+<style>
+     .pt_thanhtoan .ma_giam button {
+    margin: 20px 0;
+    border: 3px solid #094226;
+    border-radius: 8px;
+    height: 41px;
+    width: 50%;
+    text-indent: 5px;
+    color: #094226;
+    font-weight: 700;
+    background: #fff;
+    }  
+    .modal-body .logo_modal {
+    width: 20%;
+    padding: 0 14px;
+    margin-bottom: 0 !important;
+    position: relative;
+    /* padding: 10px 0; */
+    height: 100%;
+    display: flex;
+    align-items: center !important;
+    border-right: 1px dashed #fff;
+    }
+    #modalVoucher .modal-title {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #modalVoucher .modal-body div:first-child {
+        justify-content: space-between;
+        margin-bottom: 17px;
+        align-items: center;
+    }
 
+    #modalVoucher .modal-body div.logo_modal:before {
+        content: "";width: 20px;height: 20px;position: absolute;background: #fff;border-radius: 50%;right: 0;transform: translateX(50%) translateY(-50%);top: 0;
+    }
+    #modalVoucher .modal-body div.logo_modal:after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background: #fff;
+        border-radius: 50%;
+        right: 0;
+        transform: translateX(50%) translateY(50%);
+        bottom: 0;
+    }
+    #modalVoucher .voucher_content {
+        width: 45%;
+        margin-bottom: auto;
+        padding-left: 20px;
+        margin-top: 10px;
+    }
+
+    #modalVoucher .modal-body div input {
+        width: 84%;
+        text-indent: 10px;
+        height: 30px;
+        border-radius: 4px;
+        border: 1px solid #F2F3F2;
+        font-size: 10px;
+        background: #F2F3F2;
+    }
+
+    #modalVoucher .modal-body div a {
+        font-size: 10px;
+        border: 1px solid;
+        color: #fff;
+        background-color: #BDBDBD;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        line-height: 1;
+        padding: 9px 13px;
+        border-radius: 4px;
+    }  
+    #modalVoucher .modal-body button.use {
+        height: 30px;
+        font-size: 10px;
+        background: #094226;
+        color: #fff;
+        border: navajowhite;
+        padding: 2px 16px;
+        margin-top: auto;
+        border-radius: 4px;
+        margin-left: auto;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #modalVoucher .voucher_content p {
+        font-size: 13px;
+        color: #5D5D5D;
+        margin-bottom: 0;
+        font-weight: 300;
+    }
+    .voucher_item {
+        background: #F2F3F2;
+        height: 81px;
+        align-items: center;
+    }
+    .voucher_item:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    #modalVoucher .modal-header {
+        border: none;
+    }
+     .modalMethodOrder {
+        cursor: pointer;
+    }
+    #modalMethodOrder .wrap_icon {
+        width: 20px;
+        margin-right: 9px;
+        display: flex;
+        align-items: center;
+    }
+    #modalMethodOrder a{
+        color: #000;
+    }
+    #modalMethodOrder .option {
+        padding: 20px 0;
+    }
+    #modalMethodOrder .option:not(:first-child) {
+        border-top: 1px solid #F2F3F2;
+    }
+    #modalMethodOrder .vietcom {
+        width: 95%;
+        margin-left: auto;
+        border-top: 1px solid #F2F3F2;
+        padding: 16px 0;
+    }
+    #modalMethodOrder .modal-header {
+        border: none;
+    }
+    #modalMethodOrder .modal-body {
+        padding: 0 20px 20px;
+    }
+    #modalMethodOrder .modal-content,#modalVoucher .modal-content {
+        border-radius: 12px;
+    }
+    #modalMethodOrder .vietcom ion-icon {
+        border: 1px dashed #ca9f9f;
+        border-radius: 40%;
+        font-size: 8px;
+        padding: 5px;
+    }
+    @media (max-width: 600px){
+        #modalMethodOrder .modal-content, #modalVoucher .modal-content,
+        #modalVoucher .modal-content, #modalVoucher .modal-content 
+        {
+            position: fixed;
+            bottom: 0;
+            border-radius: 8px 10px 0 0;
+            border: none;
+        }
+        #modalMethodOrder .modal-dialog,
+        #modalVoucher .modal-dialog  
+        {
+            margin: 0;
+        }
+    }
+</style>
+
+
+<!-- Modal Voucher -->
+<div class="modal fade" id="modalVoucher" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Finewinestore Voucher</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex">
+              <input placeholder="Nhập mã voucher của bạn" type="text"><a href="">ÁP DỤNG</a>
+          </div>
+          <div class="d-flex voucher_item">
+              <div class="logo_modal"><img src="images/LogoFWS1.png" alt=""></div>
+              <div class="voucher_content">
+                  <p>Miễn phí vận chuyển tối đa 30K</p>
+                  <p>HSD: 30/06/2021</p>
+              </div>
+              <button class="use">Sử dụng ngay</button>
+          </div>
+          <div class="d-flex voucher_item">
+            <div class="logo_modal"><img src="images/LogoFWS1.png" alt=""></div>
+            <div class="voucher_content">
+                <p>Miễn phí vận chuyển tối đa 30K</p>
+                <p>HSD: 30/06/2021</p>
+            </div>
+            <button class="use">Sử dụng ngay</button>
+        </div>
+        <div class="d-flex voucher_item">
+            <div class="logo_modal"><img src="images/LogoFWS1.png" alt=""></div>
+            <div class="voucher_content">
+                <p>Miễn phí vận chuyển tối đa 30K</p>
+                <p>HSD: 30/06/2021</p>
+            </div>
+            <button class="use">Sử dụng ngay</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Modal Method Order -->
+  <div class="modal fade" id="modalMethodOrder" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+            <div class="option d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <img src="images/Wallet.png" alt="">
+                    </div>
+                    <span>Ví VNPAY</span>
+                </div>
+                <a href=""><ion-icon name="chevron-down-outline"></ion-icon></a>
+            </div>
+            <div class="vietcom d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <img src="images/image29.png" alt="">
+                    </div>
+                    <span>Vietcombank</span>
+                </div>
+                <span>***1386</span>
+            </div>
+            <div class="option d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <img src="images/Wallet.png" alt="">
+                    </div>
+                    <span>Ví VNPAY</span>
+                </div>
+                <a href=""><ion-icon name="chevron-down-outline"></ion-icon></a>
+            </div>
+            <div class="vietcom d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <img src="images/image29.png" alt="">
+                    </div>
+                    <span>Vietcombank</span>
+                </div>
+                <span>***1386</span>
+            </div>
+            <div class="vietcom d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <ion-icon name="add-outline"></ion-icon>
+                    </div>
+                    <span>Thêm thẻ tín dụng/thẻ ghi nợ</span>
+                </div>
+                <span>***1386</span>
+            </div>
+            <div class="option d-flex justify-content-between align-items-center">
+                <div class="group_title d-flex align-items-center">
+                    <div class="wrap_icon">
+                        <img src="images/Wallet.png" alt="">
+                    </div>
+                    <span>Thanh toán khi nhận hàng</span>
+                </div>
+                <a href=""><ion-icon name="chevron-down-outline"></ion-icon></a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 <script src="main.js"></script>
 </body>
 </html>

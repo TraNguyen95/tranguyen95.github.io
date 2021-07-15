@@ -37,11 +37,12 @@ $('.navbar-toggler').click(function() {
       });
    
     // subitem lv3 header handle
-    if($('header .dropdown-item.lv3')) {
-        $('header .dropdown-item.lv3').click(function() {
+    if($('header .dropdown-item.lv3 i')) {
+        $('header .dropdown-item.lv3 i').click(function() {
             event.stopPropagation();
             event.preventDefault();
-            $(this).next().toggleClass('show');
+            $(this).parent().next().toggleClass('show');
+            console.log('oke');
         });
     }
    
