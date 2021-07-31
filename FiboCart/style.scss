@@ -1,0 +1,173 @@
+$primary-color: red;
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+span {
+    font-size: 30px;
+}
+.wrapper {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+a.header__logo {
+  font-size: 35px;
+  padding-right: 25px;
+  color: #fff;
+}
+.wrap {
+    padding: 0 15px;
+}
+// Fibo Header 
+.fibo__top {
+  background-color: #f8d110;
+  padding: 50px 0px;
+    
+  .header__search {
+    width: 70%;
+    .search__input {
+      width: 100%;
+    }
+    input {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+    button {
+      background: #fff;
+      border: none;
+    }
+  }
+  .header__icon__right {
+    margin-left: auto;
+    ion-icon {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+  .wrap_banner {
+      margin-top: 20px;
+    img {
+        margin: 0 auto;
+        width: 90%;
+        height: auto;
+    }
+  }
+  .header__bottom {
+      display: flex;
+      align-items: center;
+     
+      .logo__finewine {
+        width: 100px;
+    }
+    .btn {
+        display: block;
+        color: #fff;
+    }
+    .btn__top {
+        background-color: red;
+        margin-bottom: 6px;
+    }
+    .btn__bottom {
+        background-color: #165A2F;
+    }
+    .finewine__logo {
+        margin-right: auto;
+        font-size: 30px;
+        color: #fff;
+    }
+    .btn__right {
+        margin-left: auto;
+    }
+  }
+  
+}
+// end Header 
+// Fibo Body 
+.fibo__body {
+    .top__trade {
+        .top__trade__menu {
+            max-width: 1200px;
+            padding: 20px 0;
+            margin: 0 auto;
+            span {
+                font-size: 20px;
+                color: #797979;
+            }
+            &__right span{
+                font-size: 15px;
+                color: #000;
+            }
+            &__right a {
+                font-size: 15px;
+                color: #000;
+            }
+            span.active {
+                position: relative;
+                font-weight: bold;
+                color: #000;
+                &:before {
+                    content: "";
+                    position: absolute;
+                    border-top: 0;
+                    width: 80%;
+                    height: 2px;
+                    bottom: -6px;
+                    border-bottom: 2px solid #f8d112;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+        }
+    }
+    .deal__label {
+        padding: 40px 0;
+    }
+    .slider__label {
+        padding: 0 20px;
+        .wrap__content {
+            display: flex !important;
+            background-color: #F2F3F2;
+            padding: 30px 20px;
+            align-items: center;
+        }
+        .img_icon {
+            width: 20%;
+        }
+        .content__label {
+            padding: 0 20px;
+            flex: 1;
+            h3 {
+                font-size: 20px;
+                color: #FCD10F;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 15px;
+            }
+            .content__label__bottom {
+                margin-top: 20px;
+                span {
+                    font-size: 13px;
+                }
+                span.use__now {
+                    color: #FCD10F;
+                }
+            }
+            
+        }
+    }
+}
+// end body 

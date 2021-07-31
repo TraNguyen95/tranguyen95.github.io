@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>THUAN NHI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/slick.css"/>
+	<link rel="stylesheet" href="assets/slick-theme.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="reponsive.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/slick.js"></script>
+
+  
+</head>
+<body>
+	
+<header>
+	
+	
+	<nav class="navbar navbar-expand-lg navbar-light ">
+	  <div class="icon-menu-mobile">
+		<ul class="d-flex menu-right">
+			<li>
+				<a href="">
+					<img class="blue" src="images/User.png" alt=""> 
+					<img class="white" style="" src="images/User(2).png" alt="">
+				</a>
+				<div   class="table_login">
+					<ul>
+						<li class="register"><a href="">Đăng ký</a></li>
+						<li class="login"><a href="dangnhap-mobi.html">Đăng nhập</a></li>
+					</ul>
+				</div>
+			</li>
+	    	<li data-target="#modalCart" data-toggle="modal"><img src="images/ShoppingCartSimple.png" alt=""> </li>
+	    </ul>
+	  </div>
+	  <a class="navbar-brand" href="index.html"><img src="images/LogoFWS1.png" alt=""></a>
+	  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="index.html">Trang Chủ </a>
+	      </li>
+	      
+		  
+		   <!-- level 3 meunu  -->
+		   <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Bia
+			  <i class="fas fa-chevron-down"></i>
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="sanpham.html">Bia đức</a>
+	          <a class="dropdown-item" href="sanpham.html">Bia Bỉ</a>
+			  <div class="dropdown-item lv3" href="#">
+				<a class="" href="sanpham.html">Bia Khác</a>
+				  <div class="sub-lv3 des">
+					<ul>
+						<li>Something else here</li>
+						<li>Something else here</li>
+						<li>Something else here</li>
+					</ul>
+				</div>
+				  <i class="fas fa-chevron-down"></i>
+			  </div>
+			  <div class="sub-lv3 mobi">
+				<ul>
+					<li>Something else here</li>
+					<li>Something else here</li>
+					<li>Something else here</li>
+				</ul>
+			</div>
+			<a class="dropdown-item" href="sanpham.html">Bia khuyến mãi</a>
+	        </div>
+		  </li>
+		  
+		  <!-- end  -->
+
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle1" href="sanpham.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Rượu
+			  <i class="fas fa-chevron-down"></i>
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="sanpham.html">Rượu 1</a>
+	          <a class="dropdown-item" href="sanpham.html">Rượu 2 </a>
+	          <a class="dropdown-item" href="sanpham.html">Rượu 3 </a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="sanpham.html">Thực Phẩm nhập khẩu</a>
+	      </li>
+	      
+	      <li class="nav-item">
+	        <a class="nav-link " href="hoi-dap.html">Hỏi đáp cùng chuyên gia</a>
+	      </li>
+	       <li class="nav-item">
+	        <a class="nav-link " href="kienthucsukien.html">Khuyến mãi và sự kiện</a>
+	      </li>
+	    </ul>
+	    <ul class="d-flex menu-right">
+	    	<li>
+	    		<form class="form-inline my-lg-0">
+					<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome; font-weight: 100; margin-right: 20px ;" />
+			    </form>
+			</li>
+			<li>
+				<a href=""><img class="blue" src="images/User.png" alt=""> <img class="white" style="" src="images/User(2).png" alt="">
+				</a>
+				<div data-target="#modalLogin" data-toggle="modal" class="table_login">
+					<ul>
+						<li><a href="">Đăng ký</a></li>
+						<li><a href="">Đăng nhập</a></li>
+					</ul>
+				</div>
+			</li>	
+	    	<li>
+				
+				<a data-target="#modalCart" data-toggle="modal" href="" >
+					<img src="images/ShoppingCartSimple.png" alt="">
+				</a>
+			 </li>
+	    	
+	    	
+	    </ul>
+	    <div class="login_logout">
+			<div class="wrap"><a href=""><img src="images/logout.png" alt=""> </a></div>
+			<a href="">Đăng Nhập</a>	
+		</div>
+	  </div>
+	</nav>
+	<div class="search-mobile">
+		<form class="form-inline my-lg-0">
+			<input type="text" placeholder="&#xF002; Tìm Kiếm" style="font-family:Arial, FontAwesome" />
+		</form>
+	</div>
+</header>
+
+
+<div class="main_content">
+	<!-- carousel  -->
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		  </ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<div class="container-fluid banner">
+				<div class="row h-100">
+					<div class="col-6 d-flex align-items-center pl-5 left">
+						<div class="wrap_content">
+						  <div class="sale d-flex">
+							  <div class="wrap"><img src="images/Sale.png" alt=""></div>
+							  <div class="wrap"><img src="images/Sale2.png" alt=""></div>
+						  </div>
+						  <div class="upto d-flex">
+							  <p>up to</p>
+							  <p>up to</p>
+							  <p>up to</p>
+						  </div>
+						  <div class="khuyen_mai">
+							  <img src="images/khuyenmai2.png" alt="">
+						  </div>
+						</div>
+					</div>
+					<div class="col-6 right d-flex mt-auto">
+						<div class="wrap"><a href="#" class="text-white">Nhận Khuyến Mãi</a></div>
+					</div>
+				</div>
+			  </div>
+		  </div>
+		  <div class="carousel-item">
+			<div class="container-fluid banner">
+				<div class="row h-100">
+					<div class="col-6 d-flex align-items-center pl-5 left">
+						<div class="wrap_content">
+						  <div class="sale d-flex">
+							  <div class="wrap"><img src="images/Sale.png" alt=""></div>
+							  <div class="wrap"><img src="images/Sale2.png" alt=""></div>
+						  </div>
+						  <div class="upto d-flex">
+							  <p>up to</p>
+							  <p>up to</p>
+							  <p>up to</p>
+						  </div>
+						  <div class="khuyen_mai">
+							  <img src="images/khuyenmai2.png" alt="">
+						  </div>
+						</div>
+					</div>
+					<div class="col-6 right d-flex mt-auto">
+						<div class="wrap"><a href="#" class="text-white">Nhận Khuyến Mãi</a></div>
+					</div>
+				</div>
+			  </div>
+		  </div>
+		  <div class="carousel-item">
+			<div class="container-fluid banner">
+				<div class="row h-100">
+					<div class="col-6 d-flex align-items-center pl-5 left">
+						<div class="wrap_content">
+						  <div class="sale d-flex">
+							  <div class="wrap"><img src="images/Sale.png" alt=""></div>
+							  <div class="wrap"><img src="images/Sale2.png" alt=""></div>
+						  </div>
+						  <div class="upto d-flex">
+							  <p>up to</p>
+							  <p>up to</p>
+							  <p>up to</p>
+						  </div>
+						  <div class="khuyen_mai">
+							  <img src="images/khuyenmai2.png" alt="">
+						  </div>
+						</div>
+					</div>
+					<div class="col-6 right d-flex mt-auto">
+						<div class="wrap"><a href="#" class="text-white">Nhận Khuyến Mãi</a></div>
+					</div>
+				</div>
+			  </div>
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+	  </div>
+	<!-- end carousel   -->
+	  <div class="container-fluid FineWineStore">
+		  <div class="row">
+			  <div class="col-md-6 d-flex justify-content-center left">
+				  <div class="content">
+					  <h3>GIỚI THIỆU VỀ
+                        Finewinestore</h3>
+					  <p>Một không gian thoáng đãng, thoải mái và đậm chất thơ, nơi cho bạn chìm đắm vào tiếng guitar du dương cùng với bờ hồ thơ mộng và những loại bia ngon nhất thế giới, Một không gian thoáng đãng, thoải mái và đậm chất thơ, nơi cho bạn chìm đắm vào tiếng guitar du dương cùng với bờ hồ thơ mộng và những loại bia ngon nhất thế giới</p>
+				  </div>
+			  </div>
+			  <div class="col-md-6 right d-flex justify-content-center align-items-center">
+				  <div class="wrap">
+					  <img src="images/FineWineStore.png" alt="">
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+     
+      <div class="sec2_about_us">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="wrap_content">
+                        <div class="wrap-icon"><ion-icon name="location-outline"></ion-icon></div>
+                        <h3>HỆ THỐNG FINEWINESTORE</h3>
+                        <p>Địa chỉ: 143A Lê Lợi, Q.Hải Châu, TP. Đà Nẵng<br>
+                            Website: anchor.restaurant@gmail.com<br>
+                            Liên hệ: +84 (701) 77 76 811</p>
+                        <a href="">Contact Me</a>
+                      </div>  
+                  </div>
+                  <div class="col-12">
+                    <div class="wrap_content">
+                      <div class="wrap-icon"><ion-icon name="location-outline"></ion-icon></div>
+                      <h3>HỆ THỐNG FINEWINESTORE</h3>
+                      <p>Địa chỉ: 143A Lê Lợi, Q.Hải Châu, TP. Đà Nẵng<br>
+                          Website: anchor.restaurant@gmail.com<br>
+                          Liên hệ: +84 (701) 77 76 811</p>
+                      <a href="">Contact Me</a>
+                    </div>  
+                </div>
+              </div>
+          </div>
+          <div class="wrap_map">
+              <img src="images/image14.png" alt="">
+          </div>
+      </div>
+	
+</div>
+<footer>
+	<div class="container-fluid dia_diem">
+		<h3 class="text-center">địa điểm mua hàng</h3>
+		<div class="row">
+			<div class="col-md-8 col-6">
+				<h4>chi nhánh đà nẵng</h4>
+				<div class="group_dia_diem">
+					<p class="title">Anchor Beer Club</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Boutique & Restaurant</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+				<div class="group_dia_diem">
+					<p class="title">Anchor
+						Bistro &
+						Boutique</p>
+					<p>29 Quang Dũng, Q. Thanh Khê, TP. Đà NẴng</p>
+					<p>02363 656 234</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-6 right">
+				<h4>chi nhánh hà nội</h4>
+				<div class="group_dia_diem_r">
+					<p>290 Lê
+						Trọng Tấn, Thanh Xuân, TP. Hà Nội 
+					</p>
+					<p>0905 198 156</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>CHI NHÁNH TP. HỒ CHÍ
+						MINH</h4>
+					<p>60 Hoa Đào,
+						P2, Phú Nhuận, TP. Hồ Chí Minh 
+					</p>
+					<p>0909 084 949</p>
+				</div>
+				<div class="group_dia_diem_r">
+					<h4>chi nhánh TP Quảng  Ngãi</h4>
+					<p>
+						291 Phan Đình Phùng, TP. Quảng Ngãi 
+					</p>
+					<p>0968 870 007</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid follow">
+		<div class="follow_child">
+			<p>Theo dõi chúng tôi tại</p>
+			<div class="d-flex"> 
+				<a href=""><i class="fa fa-facebook-f"></i></a>
+				<a href=""><i class="fa fa-twitter"></i></a>
+			</div>
+		</div>
+		<div class="row">
+			
+			<div class="col-md-7 col-6">
+				
+				<p>Mua sắm dễ dàng hơn với ứng dụng FiboCart</p>
+				<div class="d-flex mb-3">
+					<a href=""><img class="logo" src="images/appleStore.0ca159be.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>
+				</div>
+				<div class="d-flex">
+					<a href=""><img class="logo" src="images/googlePlay.df026781.png" alt=""></a>
+					<a href=""><img class="ma_vach" src="images/d91264e165ed6facc6178994d5afae79.png" alt=""></a>		
+				</div>
+				<!-- <a href=""><img src="images/theodoi.png" alt=""></a> -->
+			</div>
+			<div class="col-md-5 col-6 right">
+				<h3>CÔNG TY TNHH MTV THUẬN NHĨ</h3>
+				<p class="content">
+					Hiện thân của sự cống hiến không ngừng để đạt tới sự hoàn hảo
+				</p>
+				<p><b>Mã số thuế :</b> 0401232339</p>
+				<p><b>Địa chỉ ĐKKD:</b> 77 Đặng Vũ Hỷ, Phường Phước Mỹ, Quận Sơn Trà, TP Đà Nẵng, Việt Nam</p>
+				<p><b>Điện Thoại:</b> 0236 394 0190</p>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div class="footer">
+		<p class="title">THƯỞNG THỨC CÓ TRÁCH NHIỆM</p>
+		<p>Các sản phẩm bia rượu không dành cho người dưới 18 tuổi và phụ nữ đang mang thai</p>
+		<p>Bản quyền 2020 THUẬN NHĨ</p>
+	</div>
+</footer>	
+	
+
+
+  
+<!-- Modal login site -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		  <div class="wrap_img">
+			<img class="logo" src="images/LogoFWS1.png" alt="">
+		  </div>
+		  
+		<h3>Chào mừng đến finewinestore.vn</h3>
+			<img class="imgModal" src="images/Group382.png" alt="">
+		 <p>Các sản phẩm của chúng tôi không dành cho người dưới 18 tuổi, phụ nữ đang mang thai. Thưởng thức có trách nhiệm và không lái xe khi đã uống rượu.</p>
+		 <div class="modal-footer">
+			<button type="button" class="btn " data-dismiss="modal">Đủ 18 tuổi</button>
+			<button type="button" class="btn ">Dưới 18 tuổi</button>
+		  </div>
+	  </div>
+	  
+	</div>
+  </div>
+<!-- Modal cart  -->
+<div class="modal fade" id="modalCart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLongTitle">Giỏ hàng</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  <div class="wrap_product">
+			  <h4>Sản Phẩm</h4>
+			  <div class="group_content_product d-flex">
+				  <a class="icon_delete" href=""><img src="images/Delete.png" alt=""></a>
+				  <div class="group_title_product">
+					  <p class="name">ABBAYE AMBER 330ML</p>
+					  <p class="gia">90.000VNĐ / chai</p>
+				  </div>
+				  <span class="sl">1x</span>
+				  <div class="total">
+					  <p>90000</p>
+				  </div>
+			  </div>
+		  </div>
+		  <div class="don_hang">
+			  <h4>Đơn hàng của bạn</h4>
+			  <div class="wrapper row">
+				  <div class="col-12">
+						<div class="tam_tinh d-flex justify-content-between">
+							<p>Tạm Tính</p>
+							<p>90,000 VND</p>
+						</div>
+						<div class="tam_tinh d-flex justify-content-between">
+						<p>Phí vận chuyển</p>
+						<p>15,000 VND</p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="row tien_mat">
+				  <div class="col-6">
+					  <div class="wrapper d-flex align-items-center justify-content-center">
+						<div class="icon"><img src="images/Group176.png" alt=""></div>
+						<p>Tiền mặt <i class="fas fa-chevron-up"></i> </p>
+					  </div>
+				  </div>
+				  <div class="col-6 ">
+					  <div class="wrapper d-flex justify-content-center">
+						 <p>Chọn khuyến mãi</p>
+					  </div>
+					 
+				  </div>
+			  </div>
+			  <div class="row total_order">
+				  <div class="col-12">
+					  <div class="wrapper  d-flex justify-content-between">
+						<div class="tong_cong">
+							<p>Tổng cộng</p>
+							<p class="money">
+							  105,000 VND
+							</p>
+						</div>
+						<a href="pthucthtoan.html">ĐẶT HÀNG</a>
+					  </div>
+				  </div>
+			  </div>
+			  
+
+
+		  </div>
+		</div>
+		
+	  </div>
+	</div>
+  </div>
+
+  <!-- Modal Login Logout-->
+<div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+			<div class="row">
+				<div class="left col-6">
+					<h3>ĐĂNG NHẬP</h3>
+					<label>SỐ ĐIỆN THOẠI/ ĐỊA CHỈ EMAIL </label><br>
+					<input type="text"><br>
+					<label>MẬT KHẨU</label><br>
+					<div class="wrap_pass">
+						<input type="password">
+						<span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+					</div>
+					
+					<input type="checkbox" id="savePass" name="savePass" value="savePass">
+					
+					<label for="savePass">Ghi nhớ mật khẩu</label><br>
+					<a class="login_child" href="">Đăng Nhập</a><br>
+					<a class="forget_pass" href="">QUÊN MẬT KHẨU?</a>
+				</div>
+				<div class="right col-6">
+					<h3>ĐĂNG KÝ</h3>
+					<label>SỐ ĐIỆN THOẠI*</label><br>
+					<div class="d-flex align-items-center group_input">
+						<div class="wrap_icon">
+							<img src="images/coVN.png" alt="">
+						</div>
+						<i class="fas fa-sort-down"></i>
+						<span>+84</span>
+						<input placeholder="077777" type="text">
+					</div>
+
+					
+					<p>MỘT MẬT KHẨU SẼ ĐƯỢC GỬI ĐẾN SỐ ĐIỆN THOẠI CỦA BẠN.</p>
+					<p>DỮ LIỆU CÁ NHÂN CỦA BẠN SẼ ĐƯỢC SỬ DỤNG ĐỂ HỖ TRỢ TRẢI NGHIỆM CỦA BẠN TRÊN TOÀN BỘ TRANG WEB NÀY, ĐỂ QUẢN LÝ QUYỀN TRUY CẬP VÀO TÀI KHOẢN CỦA BẠN VÀ CHO CÁC MỤC ĐÍCH KHÁC ĐƯỢC MÔ TẢ TRONG CHÚNG TÔI CHÍNH SÁCH RIÊNG TƯ.</p>
+					<a data-target="#modalRegister" id="begin_modal" data-toggle="modal" class="register login_child" href="">Đăng Ký</a>
+				</div>
+			</div>
+	  </div>
+	</div>
+</div>
+
+<!-- Modal register  -->
+<div class="modal fade modal-second" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content text-center register" >
+			<div class="row">
+				<div class="col-md-12">
+					<h3>ĐĂNG KÝ</h3>
+					<p>Mã OTP sẽ được gửi đến số +84 777 777 777</p>
+					<h4>NHẬP MÃ OTP</h4>
+					<div class="d-flex align-items-center justify-content-center group_input">
+						<input placeholder="" type="text" maxlength="1">
+						<input placeholder="" type="text" maxlength="1">
+						<input placeholder="" type="text" maxlength="1">
+						<input placeholder="" type="text" maxlength="1">
+					</div>
+					<div class="d-flex align-items-center mt-4 justify-content-center">
+						<span class="question">Chưa nhận được mã?</span>
+						<a  class="register" href="">Gửi lại mã OTP</a>
+					</div>
+					<a  data-target="#modalRegister2" id="begin_modal_1" data-toggle="modal" class="login_child" href="">TIẾP TỤC</a>
+					<div class="col-md-12 group_checkbox">
+						<input type="checkbox" id="dk_email" name="dk_email" value="">
+						<label class="dk_email" for="vehicle1">Tôi đồng ý với <span> Điều kiện & Điều khoản</span> 
+							của <span>FINEWINESTORE</span> </label><br>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal register 2  -->
+<div class="modal fade" id="modalRegister2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content register" >
+			<div class="row">
+				<div class="col-md-12">
+					<h3>ĐĂNG KÝ</h3>
+					<p>Nhập mật khẩu để tăng cường bảo mật</p>
+					<label class="field_name" for="">MẬT KHẨU</label><br>
+					<div class="wrap_pass">
+						<input type="password">
+						<span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+					</div>
+					<label class="field_name" for="">MẬT LẠI MẬT KHẨU</label><br>
+					<div class="wrap_pass">
+						<input type="password">
+						<span toggle="#password-field" class="fa fa-fw field-icon toggle-password fa-eye"></span>
+					</div>
+					<div class="col-md-12 group_checkbox">
+						<input type="checkbox" id="" name="dk_email" value="">
+						<label class="dk_email" for="vehicle1">GHI NHỚ MẬT KHẨU</label><br>
+					</div>
+					<a data-target="#cs_doitra" data-toggle="modal" id="begin_modal_2" class="login_child" href="">TIẾP TỤC</a>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- Modal Chinh Sach Doi Tra-->
+<div class="modal fade" id="cs_doitra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+			<i class="fas fa-chevron-left"></i><h5 class="modal-title" id="exampleModalLongTitle">QUYỀN RIÊNG TƯ VÀ CHÍNH SÁCH ĐỔI TRẢ</h5>
+		</div>
+		<div class="modal-body">
+		 <h3>Điều kiện chính sách đổi trả</h3>
+		 <p>Đơn hàng giao sai sản phẩm hoặc số lượng mà khách hàng đặt.<br>
+			Sản phẩm bị hư hỏng do các lỗi từ nhà sản xuất như tem nhãn, thiết kế bao bì, nội dung thông tin sản phẩm…<br>
+			Sản phẩm bị bóp méo, hư hỏng hoặc hoặc không còn nguyên vẹn do bị tác động trong quá trình vận chuyển.<br>
+			Khách hàng muốn thay đổi nhu cầu sử dụng, muốn đổi sang các dòng sản phẩm tương tự. Điều này sẽ tùy thuộc vào từng sản phẩm, khách hàng cần liên hệ với bộ phận tư vấn của Finewinestore để được hỗ trợ về chính sách đổi trả.<br>
+			Đối với các sản phẩm khuyến mãi, thanh lý thì khách hàng không được sử dụng chính sách đổi trả với lý do muốn thay đổi nhu cầu sử dụng.</p>
+			<h3>Quy định về sản phẩm</h3>
+			<p>
+				Sản phẩm đổi trả cần phải còn nguyên vẹn tem mác, chưa qua sử dụng.<br>
+			Bao bì hộp đựng rượu vẫn còn nguyên, không bị nhàu, rách nát (ngoại trừ trường hợp bao bì bị hư hỏng trong quá trình vận chuyển).<br>
+			Các phụ kiện đi kèm như hộp, túi hoặc các vận dụng khác vẫn còn đầy đủ, không bị mất.<br>
+			</p>
+		</div>
+		<h3>Quy định về phí vận chuyển</h3>
+		<p>Thời gian để áp dụng chính sách đổi trả là trong vòng 7 ngày kể từ ngày nhận được sản phẩm, sau thời gian này cửa hàng có quyền từ chối đổi trả, ngoại trừ một số trường hợp đặc biệt.<br>
+			Đối với các trường hợp đổi trả do lỗi từ Finewinestore thì cửa hàng sẽ chịu hoàn toàn mức phí. Tuy nhiên, mức phí thanh toán sẽ được quy định cụ thể theo quy định của Finewinestore và sẽ được thỏa thuận trước với khách hàng.<br>
+			Đối với các trường hợp đổi trả do lỗi từ phía khách hàng thì khách hàng sẽ phải tự thanh toán mức phí.</p><br>
+	  </div>
+	</div>
+</div>
+<script src="main.js"></script>
+<style>
+    .wrap_map {
+        margin-bottom: 50px;
+    }
+   .sec2_about_us .wrap_content {
+    width: 46%;
+    margin: 0 auto;
+    text-align: center;
+    background: #094226ab;
+    color: #fff;
+    padding: 18px 30px 35px;
+    border-radius: 24px;
+    margin-bottom: 63px;
+    }
+
+    .sec2_about_us .wrap_content h3 {
+        font-size: 40px;
+    }
+
+    .sec2_about_us .wrap_content p {
+        font-size: 15px;
+        margin: 28px 0;
+    }
+
+    .sec2_about_us .wrap_content ion-icon {
+        font-size: 37px;
+    }
+
+    .sec2_about_us .wrap_content a {
+        font-size: 17px;
+        color: #fff;
+        background: #094226;
+        padding: 11px 36px;
+        border-radius: 21px;
+        display: inline-block;
+    }
+
+    .slick-arrow {
+        position: absolute;
+        color: #094226;
+        z-index: 999;
+        border: 2px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+    .sec2_about_us .slick-prev {
+        background-image: url('https://finewinestore.vn/resources/assets/css/finewinestore/images/Vector_left.png');
+        background-repeat: no-repeat;
+        left: -10px;
+        background-size: 20px 30px;
+        background-position: 44% 50%;
+    }
+    .sec2_about_us button.slick-next {
+        background-image: url('https://finewinestore.vn/resources/assets/css/finewinestore/images/Vector_right.png');
+        background-repeat: no-repeat;
+        right: -10px;
+        background-size: 20px 30px;
+        background-position: 44% 50%;
+    }
+    .sec2_about_us .slick-prev:before,.sec2_about_us .slick-next:before {
+        content: "";
+    }
+</style>
+<script>
+    $(".sec2_about_us .container .row").slick({
+		autoplay: true,
+		arrows: true,
+		speed: 1000,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1, 
+		slidesToScroll: 1,
+		cssEase: 'linear',
+        pauseOnFocus: false,
+    });
+</script>
+</body>
+</html>
+
+

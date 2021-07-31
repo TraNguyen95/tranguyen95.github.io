@@ -1,0 +1,171 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+span {
+  font-size: 30px;
+}
+
+.wrapper {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
+a.header__logo {
+  font-size: 35px;
+  padding-right: 25px;
+  color: #fff;
+}
+
+.wrap {
+  padding: 0 15px;
+}
+
+.fibo__top {
+  background-color: #f8d110;
+  padding: 50px 0px;
+}
+.fibo__top .header__search {
+  width: 70%;
+}
+.fibo__top .header__search .search__input {
+  width: 100%;
+}
+.fibo__top .header__search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.fibo__top .header__search button {
+  background: #fff;
+  border: none;
+}
+.fibo__top .header__icon__right {
+  margin-left: auto;
+}
+.fibo__top .header__icon__right ion-icon {
+  color: #fff;
+  font-size: 30px;
+}
+.fibo__top .wrap_banner {
+  margin-top: 20px;
+}
+.fibo__top .wrap_banner img {
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+}
+.fibo__top .header__bottom {
+  display: flex;
+  align-items: center;
+}
+.fibo__top .header__bottom .logo__finewine {
+  width: 100px;
+}
+.fibo__top .header__bottom .btn {
+  display: block;
+  color: #fff;
+}
+.fibo__top .header__bottom .btn__top {
+  background-color: red;
+  margin-bottom: 6px;
+}
+.fibo__top .header__bottom .btn__bottom {
+  background-color: #165A2F;
+}
+.fibo__top .header__bottom .finewine__logo {
+  margin-right: auto;
+  font-size: 30px;
+  color: #fff;
+}
+.fibo__top .header__bottom .btn__right {
+  margin-left: auto;
+}
+
+.fibo__body .top__trade .top__trade__menu {
+  max-width: 1200px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.fibo__body .top__trade .top__trade__menu span {
+  font-size: 20px;
+  color: #797979;
+}
+.fibo__body .top__trade .top__trade__menu__right span {
+  font-size: 15px;
+  color: #000;
+}
+.fibo__body .top__trade .top__trade__menu__right a {
+  font-size: 15px;
+  color: #000;
+}
+.fibo__body .top__trade .top__trade__menu span.active {
+  position: relative;
+  font-weight: bold;
+  color: #000;
+}
+.fibo__body .top__trade .top__trade__menu span.active:before {
+  content: "";
+  position: absolute;
+  border-top: 0;
+  width: 80%;
+  height: 2px;
+  bottom: -6px;
+  border-bottom: 2px solid #f8d112;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.fibo__body .deal__label {
+  padding: 40px 0;
+}
+.fibo__body .slider__label {
+  padding: 0 20px;
+}
+.fibo__body .slider__label .wrap__content {
+  display: flex !important;
+  background-color: #F2F3F2;
+  padding: 30px 20px;
+  align-items: center;
+}
+.fibo__body .slider__label .img_icon {
+  width: 20%;
+}
+.fibo__body .slider__label .content__label {
+  padding: 0 20px;
+  flex: 1;
+}
+.fibo__body .slider__label .content__label h3 {
+  font-size: 20px;
+  color: #FCD10F;
+  margin-bottom: 20px;
+}
+.fibo__body .slider__label .content__label p {
+  font-size: 15px;
+}
+.fibo__body .slider__label .content__label .content__label__bottom {
+  margin-top: 20px;
+}
+.fibo__body .slider__label .content__label .content__label__bottom span {
+  font-size: 13px;
+}
+.fibo__body .slider__label .content__label .content__label__bottom span.use__now {
+  color: #FCD10F;
+}
+
+/*# sourceMappingURL=style.css.map */
